@@ -143,7 +143,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include "/customer/assets/simple-header.php"?>
+<?php include "../assets/simple-header.php"?>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
