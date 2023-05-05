@@ -126,26 +126,25 @@ img{
 </head>
 <body>
 <div class="navbar">
-		<img href="https://shareandrepair.org.uk" src="/src/img/sar.png" alt="Share and Repair">
+		<img href="https://octopus.jadith.co.uk/" src="/src/img/sar.png" alt="Octopus - The new project">
 </div>
 
 <div>
     <div class="row">
         <div class="column">
             <div id="purple">
-                <h1>Customer Portal</h1>
+                <h1>Octo 1</h1>
                 <br />
-                <p>Are you a customer? Then you're in the right place! This portal has everthing for you to manage your account, such as repair submissions and updates, Library of Things catalog, How To event bookings. By making an account, you're one step away from less waste!</p>
+                <p>test</p>
                 <br />
                 <h2><a id="nolink" href="./customer/validation/login.php"> Go to our Customer Portal <i class="fa-solid fa-circle-arrow-right" ></i></a></h2>
               </div>
         </div>
-
         <div class="column">
             <div id="purple">
-                <h1>Volunteer Network</h1>
+                <h1>Octo 2</h1>
                 <br />
-                <p>Access to the Volunteer Network to add and edit repairs, complete Library of Things requests and update How To events! This portal is for volunteers, shop admins and management to manage the weird and wonderful behind the scenes shenanigans of Share and Repair.</p>
+                <p>Test</p>
                 <br />
                 <h2 ><a id="nolink" href="./customer/validation/login.php"> Enter the Volunteer Network <i class="fa-solid fa-circle-arrow-right" ></i></a></h2>
               </div>

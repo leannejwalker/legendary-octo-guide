@@ -1,10 +1,10 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', '10.9.9.19:3306');
-define('DB_USERNAME', 'sarwebsite');
-define('DB_PASSWORD', '3@jDlb89g4d4*As7');
-define('DB_NAME', 'sarwebsite');
+define('DB_SERVER', 'localhost:3306');
+define('DB_USERNAME', 'octo_pus_user');
+define('DB_PASSWORD', 'jva!cdf1btz9fme-WVA');
+define('DB_NAME', 'octo_pus_database');
 
 /*$sql = "CREATE TABLE users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
