@@ -1,16 +1,20 @@
 <?php
+
+// Display errors
+ini_set('display_errors', 1);
+
 // Initialize the session
 session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: account.php");
+    header("location: ../account.php");
     exit;
 }
  
 // Include config file
-require_once "config.php";
- 
+require_once "../scripts/config.php";
+
 // Define variables and initialize with empty values
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
@@ -64,18 +68,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;                            
                         
-                        if($access_id= 'Administrator'){
-                            // Redirect user to admin page
-                            header("location: admin_console/account.php");
-                        }
-                        if($access_id='Volunteer'){
-                            // Redirect user to volunteer page
-                            header("location: volunteers/account.php");
-                        }
-                        if($access_id='Customer'){
-                            // Redirect user to volunteer page
-                            header("location: customers/account.php");
-                        }
+                            if($access_id= 'Administrator'){
+                                // Redirect user to admin page
+                                header("location: admin_console/account.php");
+                            }
+                            if($access_id='Volunteer'){
+                                // Redirect user to volunteer page
+                                header("location: volunteers/account.php");
+                            }
+                            if($access_id='Customer'){
+                                // Redirect user to volunteer page
+                                header("location: customers/account.php");
+                            }
 
                         } else{
                             // Password is not valid, display a generic error message
@@ -105,7 +109,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/customer/img/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body{
@@ -139,7 +143,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include "./customer/assets/simple-header.php"?>
+<?php include "../assets/simple-header.php"?>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>

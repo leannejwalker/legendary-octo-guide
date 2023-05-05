@@ -1,6 +1,11 @@
 <?php
 // Include config file
-require_once "config.php";
+require_once "../scripts/config.php";
+
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    header("location: ../account.php");
+    exit;
+}
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
@@ -150,7 +155,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include "./customer/assets/simple-header.php"?>
+<?php include "../assets/simple-header.php"?>
     <div class="wrapper">
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>

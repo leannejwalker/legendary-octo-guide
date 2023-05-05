@@ -1,6 +1,11 @@
 <?php
 // Include config file
 require_once "../scripts/config.php";
+
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    header("location: ../account.php");
+    exit;
+}
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
