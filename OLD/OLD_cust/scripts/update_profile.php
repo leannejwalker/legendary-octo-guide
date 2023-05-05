@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "/scripts/config.php";
+require_once "../scripts/config.php";
 
 $id=$_SESSION['id'];
 $fname = $link->real_escape_string($_POST['fname']);

@@ -1,0 +1,278 @@
+Date : 2023-05-06 00:17:06
+Directory : c:\Users\leann\Documents\GitHub\legendary-octo-guide
+Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         10 |     68,950 |     19,110 |     20,755 |    108,815 |
+| PHP        |        162 |     11,575 |      2,132 |      1,976 |     15,683 |
+| HTML       |          6 |      1,275 |          0 |         81 |      1,356 |
+| Markdown   |          1 |          3 |          0 |          3 |          6 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |        179 |     81,803 |     21,242 |     22,815 |    125,860 |
+| . (Files)                                                                                                  |          3 |        143 |          0 |         20 |        163 |
+| OLD                                                                                                        |         94 |     27,307 |      6,816 |      7,289 |     41,412 |
+| OLD\OLD_cust                                                                                               |         30 |      9,026 |      2,304 |      2,416 |     13,746 |
+| OLD\OLD_cust (Files)                                                                                       |          1 |         19 |         12 |          7 |         38 |
+| OLD\OLD_cust\pages                                                                                         |          6 |        380 |         39 |         50 |        469 |
+| OLD\OLD_cust\pages\borrow                                                                                  |          2 |        116 |          9 |         24 |        149 |
+| OLD\OLD_cust\pages\howto                                                                                   |          2 |         54 |          4 |         10 |         68 |
+| OLD\OLD_cust\pages\repair                                                                                  |          2 |        210 |         26 |         16 |        252 |
+| OLD\OLD_cust\scripts                                                                                       |         10 |        433 |        235 |        118 |        786 |
+| OLD\OLD_cust\src                                                                                           |         13 |      8,194 |      2,018 |      2,241 |     12,453 |
+| OLD\OLD_cust\src\auth                                                                                      |          5 |        471 |         95 |         74 |        640 |
+| OLD\OLD_cust\src\misc                                                                                      |          6 |        573 |         12 |         75 |        660 |
+| OLD\OLD_cust\src\underconstruction                                                                         |          2 |      7,150 |      1,911 |      2,092 |     11,153 |
+| OLD\OLD_cust\src\underconstruction (Files)                                                                 |          1 |        255 |          0 |         16 |        271 |
+| OLD\OLD_cust\src\underconstruction\js                                                                      |          1 |      6,895 |      1,911 |      2,076 |     10,882 |
+| OLD\admin                                                                                                  |         34 |      9,345 |      2,259 |      2,473 |     14,077 |
+| OLD\admin (Files)                                                                                          |          1 |         12 |          4 |          9 |         25 |
+| OLD\admin\pages                                                                                            |         10 |        798 |         36 |        123 |        957 |
+| OLD\admin\pages (Files)                                                                                    |          1 |          0 |          0 |          1 |          1 |
+| OLD\admin\pages\borrow                                                                                     |          1 |         89 |          7 |         18 |        114 |
+| OLD\admin\pages\howto                                                                                      |          2 |         54 |          4 |         10 |         68 |
+| OLD\admin\pages\library                                                                                    |          2 |        208 |          7 |         22 |        237 |
+| OLD\admin\pages\manage                                                                                     |          2 |        235 |         11 |         61 |        307 |
+| OLD\admin\pages\repair                                                                                     |          2 |        212 |          7 |         11 |        230 |
+| OLD\admin\scripts                                                                                          |         10 |        424 |        236 |        114 |        774 |
+| OLD\admin\src                                                                                              |         13 |      8,111 |      1,983 |      2,227 |     12,321 |
+| OLD\admin\src\auth                                                                                         |          4 |        350 |         56 |         51 |        457 |
+| OLD\admin\src\misc                                                                                         |          7 |        611 |         16 |         84 |        711 |
+| OLD\admin\src\underconstruction                                                                            |          2 |      7,150 |      1,911 |      2,092 |     11,153 |
+| OLD\admin\src\underconstruction (Files)                                                                    |          1 |        255 |          0 |         16 |        271 |
+| OLD\admin\src\underconstruction\js                                                                         |          1 |      6,895 |      1,911 |      2,076 |     10,882 |
+| OLD\cust                                                                                                   |         30 |      8,936 |      2,253 |      2,400 |     13,589 |
+| OLD\cust (Files)                                                                                           |          1 |         12 |          4 |          9 |         25 |
+| OLD\cust\pages                                                                                             |          6 |        389 |         30 |         50 |        469 |
+| OLD\cust\pages\borrow                                                                                      |          2 |        116 |          9 |         24 |        149 |
+| OLD\cust\pages\howto                                                                                       |          2 |         54 |          4 |         10 |         68 |
+| OLD\cust\pages\repair                                                                                      |          2 |        219 |         17 |         16 |        252 |
+| OLD\cust\scripts                                                                                           |         10 |        424 |        236 |        114 |        774 |
+| OLD\cust\src                                                                                               |         13 |      8,111 |      1,983 |      2,227 |     12,321 |
+| OLD\cust\src\auth                                                                                          |          4 |        350 |         56 |         51 |        457 |
+| OLD\cust\src\misc                                                                                          |          7 |        611 |         16 |         84 |        711 |
+| OLD\cust\src\underconstruction                                                                             |          2 |      7,150 |      1,911 |      2,092 |     11,153 |
+| OLD\cust\src\underconstruction (Files)                                                                     |          1 |        255 |          0 |         16 |        271 |
+| OLD\cust\src\underconstruction\js                                                                          |          1 |      6,895 |      1,911 |      2,076 |     10,882 |
+| admin                                                                                                      |         55 |     31,713 |      8,365 |      8,977 |     49,055 |
+| admin (Files)                                                                                              |          8 |        526 |         78 |         80 |        684 |
+| admin\admin_console                                                                                        |         24 |      8,702 |      2,240 |      2,394 |     13,336 |
+| admin\admin_console (Files)                                                                                |         21 |      1,476 |        125 |        226 |      1,827 |
+| admin\admin_console\js                                                                                     |          1 |      6,895 |      1,911 |      2,075 |     10,881 |
+| admin\admin_console\scripts                                                                                |          2 |        331 |        204 |         93 |        628 |
+| admin\customers                                                                                            |         13 |      7,739 |      1,977 |      2,194 |     11,910 |
+| admin\customers (Files)                                                                                    |         12 |        844 |         66 |        119 |      1,029 |
+| admin\customers\js                                                                                         |          1 |      6,895 |      1,911 |      2,075 |     10,881 |
+| admin\js                                                                                                   |          1 |      6,895 |      1,911 |      2,075 |     10,881 |
+| admin\scripts                                                                                              |          3 |        324 |        183 |         83 |        590 |
+| admin\underconstruction                                                                                    |          2 |      7,150 |      1,911 |      2,092 |     11,153 |
+| admin\underconstruction (Files)                                                                            |          1 |        255 |          0 |         16 |        271 |
+| admin\underconstruction\js                                                                                 |          1 |      6,895 |      1,911 |      2,076 |     10,882 |
+| admin\validation                                                                                           |          4 |        377 |         65 |         59 |        501 |
+| customer                                                                                                   |         26 |     22,630 |      6,051 |      6,526 |     35,207 |
+| customer (Files)                                                                                           |          1 |        163 |         15 |         21 |        199 |
+| customer\assets                                                                                            |          4 |        293 |          7 |         44 |        344 |
+| customer\js                                                                                                |          1 |      6,895 |      1,911 |      2,075 |     10,881 |
+| customer\p                                                                                                 |         10 |      7,418 |      1,949 |      2,149 |     11,516 |
+| customer\p (Files)                                                                                         |          9 |        523 |         38 |         74 |        635 |
+| customer\p\js                                                                                              |          1 |      6,895 |      1,911 |      2,075 |     10,881 |
+| customer\scripts                                                                                           |          4 |        334 |        193 |         86 |        613 |
+| customer\underconstruction                                                                                 |          2 |      7,150 |      1,911 |      2,092 |     11,153 |
+| customer\underconstruction (Files)                                                                         |          1 |        255 |          0 |         16 |        271 |
+| customer\underconstruction\js                                                                              |          1 |      6,895 |      1,911 |      2,076 |     10,882 |
+| customer\validation                                                                                        |          4 |        377 |         65 |         59 |        501 |
+| scripts                                                                                                    |          1 |         10 |         10 |          3 |         23 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                   | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\404.php                                               | PHP        |          1 |          0 |          0 |          1 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\index.php                                | PHP        |         19 |         12 |          7 |         38 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\pages\borrow\borrow.php                  | PHP        |         89 |          7 |         18 |        114 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\pages\borrow\myborrowed.php              | PHP        |         27 |          2 |          6 |         35 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\pages\howto\book-a-howto.php             | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\pages\howto\my-booked-howto.php          | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\pages\repair\book-a-repair.php           | PHP        |        145 |         12 |         10 |        167 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\pages\repair\my-repair-sessions.php      | PHP        |         65 |         14 |          6 |         85 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\config.php                       | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\css.php                          | PHP        |          6 |          0 |          0 |          6 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\echo.php                         | PHP        |         15 |          2 |          4 |         21 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\js.php                           | PHP        |          7 |          0 |          0 |          7 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\new_item.php                     | PHP        |         20 |          6 |          6 |         32 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\new_repair.php                   | PHP        |         19 |          6 |          5 |         30 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\new_user.php                     | PHP        |         15 |          6 |          5 |         26 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\ssp.class.php                    | PHP        |        308 |        181 |         82 |        571 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\update_profile.php               | PHP        |         14 |          1 |          5 |         20 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\scripts\users.php                        | PHP        |         19 |         23 |          8 |         50 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\auth\admin-login.php                 | PHP        |        113 |         17 |         16 |        146 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\auth\login.php                       | PHP        |        113 |         17 |         16 |        146 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\auth\logout.php                      | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\auth\register.php                    | PHP        |        149 |         42 |         26 |        217 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\auth\reset-password.php              | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\misc\account.php                     | PHP        |        165 |         12 |         16 |        193 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\misc\adminheader.php                 | PHP        |        160 |          0 |         22 |        182 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\misc\footer.php                      | PHP        |         20 |          0 |          0 |         20 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\misc\header.php                      | PHP        |        142 |          0 |         22 |        164 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\misc\loginoption.html                | HTML       |          0 |          0 |          1 |          1 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\misc\simple-header.php               | PHP        |         86 |          0 |         14 |        100 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\underconstruction\index.html         | HTML       |        255 |          0 |         16 |        271 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\OLD_cust\src\underconstruction\js\jquery-3.6.0.js | JavaScript |      6,895 |      1,911 |      2,076 |     10,882 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\index.php                                   | PHP        |         12 |          4 |          9 |         25 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\borrow\borrow-an-item.php             | PHP        |         89 |          7 |         18 |        114 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\howto\book-a-howto.php                | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\howto\my-booked-howto.php             | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\library\create-lot-item.php           | PHP        |        101 |          2 |         14 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\library\library-of-things.php         | PHP        |        107 |          5 |          8 |        120 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\manage\add-a-user.php                 | PHP        |        109 |          6 |         11 |        126 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\manage\all-users.php                  | PHP        |        126 |          5 |         50 |        181 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\repair\all-repair-sessions.php        | PHP        |        105 |          5 |          8 |        118 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\repair\book-a-repair.php              | PHP        |        107 |          2 |          3 |        112 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\pages\summary.php                           | PHP        |          0 |          0 |          1 |          1 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\config.php                          | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\css.php                             | PHP        |          6 |          0 |          0 |          6 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\echo.php                            | PHP        |         13 |          2 |          4 |         19 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\js.php                              | PHP        |          7 |          0 |          0 |          7 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\new_item.php                        | PHP        |         20 |          6 |          6 |         32 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\new_repair.php                      | PHP        |         19 |          6 |          5 |         30 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\new_user.php                        | PHP        |         15 |          6 |          5 |         26 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\session.php                         | PHP        |          7 |          2 |          1 |         10 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\ssp.class.php                       | PHP        |        308 |        181 |         82 |        571 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\scripts\users.php                           | PHP        |         19 |         23 |          8 |         50 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\auth\login.php                          | PHP        |        113 |         17 |         16 |        146 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\auth\logout.php                         | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\auth\register.php                       | PHP        |        141 |         20 |         19 |        180 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\auth\reset-password.php                 | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\account.php                        | PHP        |        153 |         12 |         16 |        181 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\adminheader.php                    | PHP        |        160 |          0 |         22 |        182 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\faq.php                            | PHP        |         24 |          2 |          6 |         32 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\footer.php                         | PHP        |         20 |          0 |          0 |         20 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\header.php                         | PHP        |        141 |          0 |         21 |        162 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\simple-header.php                  | PHP        |         86 |          0 |         14 |        100 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\misc\support.php                        | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\underconstruction\index.html            | HTML       |        255 |          0 |         16 |        271 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\admin\src\underconstruction\js\jquery-3.6.0.js    | JavaScript |      6,895 |      1,911 |      2,076 |     10,882 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\index.php                                    | PHP        |         12 |          4 |          9 |         25 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\pages\borrow\borrow-an-item.php              | PHP        |         89 |          7 |         18 |        114 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\pages\borrow\my-borrowed-items.php           | PHP        |         27 |          2 |          6 |         35 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\pages\howto\book-a-howto.php                 | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\pages\howto\my-booked-howto.php              | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\pages\repair\book-a-repair.php               | PHP        |        145 |         12 |         10 |        167 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\pages\repair\my-repair-sessions.php          | PHP        |         74 |          5 |          6 |         85 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\config.php                           | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\css.php                              | PHP        |          6 |          0 |          0 |          6 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\echo.php                             | PHP        |         13 |          2 |          4 |         19 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\js.php                               | PHP        |          7 |          0 |          0 |          7 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\new_item.php                         | PHP        |         20 |          6 |          6 |         32 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\new_repair.php                       | PHP        |         19 |          6 |          5 |         30 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\new_user.php                         | PHP        |         15 |          6 |          5 |         26 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\session.php                          | PHP        |          7 |          2 |          1 |         10 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\ssp.class.php                        | PHP        |        308 |        181 |         82 |        571 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\scripts\users.php                            | PHP        |         19 |         23 |          8 |         50 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\auth\login.php                           | PHP        |        113 |         17 |         16 |        146 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\auth\logout.php                          | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\auth\register.php                        | PHP        |        141 |         20 |         19 |        180 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\auth\reset-password.php                  | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\account.php                         | PHP        |        153 |         12 |         16 |        181 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\adminheader.php                     | PHP        |        160 |          0 |         22 |        182 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\faq.php                             | PHP        |         24 |          2 |          6 |         32 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\footer.php                          | PHP        |         20 |          0 |          0 |         20 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\header.php                          | PHP        |        141 |          0 |         21 |        162 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\simple-header.php                   | PHP        |         86 |          0 |         14 |        100 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\misc\support.php                         | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\underconstruction\index.html             | HTML       |        255 |          0 |         16 |        271 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\OLD\cust\src\underconstruction\js\jquery-3.6.0.js     | JavaScript |      6,895 |      1,911 |      2,076 |     10,882 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\README.md                                             | Markdown   |          3 |          0 |          3 |          6 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\account.php                       | PHP        |        162 |         15 |         19 |        196 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\add-a-user.php                    | PHP        |        109 |          6 |         11 |        126 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\all-repair-sessions.php           | PHP        |        105 |          5 |          8 |        118 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\all-users.php                     | PHP        |        126 |          5 |         50 |        181 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\book-a-howto.php                  | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\book-a-repair.php                 | PHP        |        107 |          2 |          3 |        112 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\borrow-an-item.php                | PHP        |         89 |          7 |         18 |        114 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\config.php                        | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\create-lot-item.php               | PHP        |        101 |          2 |         14 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\footer.php                        | PHP        |         29 |          2 |          2 |         33 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\header.php                        | PHP        |        167 |          3 |         22 |        192 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\js\jquery-3.6.0.js                | JavaScript |      6,895 |      1,911 |      2,075 |     10,881 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\library-of-things.php             | PHP        |        107 |          5 |          8 |        120 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\login.php                         | PHP        |        122 |         22 |         20 |        164 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\logout.php                        | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\my-booked-howto.php               | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\new_item.php                      | PHP        |         20 |          6 |          6 |         32 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\new_repair.php                    | PHP        |         19 |          6 |          5 |         30 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\new_user.php                      | PHP        |         15 |          6 |          5 |         26 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\reset-password.php                | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\scripts\ssp.class.php             | PHP        |        308 |        181 |         82 |        571 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\scripts\users.php                 | PHP        |         23 |         23 |         11 |         57 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\simple-header.php                 | PHP        |         38 |          0 |          5 |         43 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\admin_console\summary.php                       | PHP        |          0 |          0 |          1 |          1 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\config.php                                      | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\account.php                           | PHP        |        162 |         15 |         19 |        196 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\book-a-howto.php                      | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\book-a-repair.php                     | PHP        |        145 |         12 |         10 |        167 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\borrow-an-item.php                    | PHP        |         89 |          7 |         18 |        114 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\config.php                            | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\header.php                            | PHP        |        149 |          3 |         23 |        175 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\js\jquery-3.6.0.js                    | JavaScript |      6,895 |      1,911 |      2,075 |     10,881 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\my-booked-howto.php                   | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\my-borrowed-items.php                 | PHP        |         27 |          2 |          6 |         35 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\my-repair-sessions.php                | PHP        |         74 |          5 |          6 |         85 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\new_repair.php                        | PHP        |         19 |          6 |          5 |         30 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\simple-header.php                     | PHP        |         88 |          0 |         14 |        102 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\customers\support.php                           | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\faq.php                                         | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\footer.php                                      | PHP        |         29 |          2 |          2 |         33 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\js\jquery-3.6.0.js                              | JavaScript |      6,895 |      1,911 |      2,075 |     10,881 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\login.php                                       | PHP        |        130 |         24 |         20 |        174 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\logout.php                                      | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\register.php                                    | PHP        |        146 |         21 |         20 |        187 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\reset-password.php                              | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\scripts\initialize.php                          | PHP        |          7 |          2 |          1 |         10 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\scripts\linksandscripts.php                     | PHP        |          9 |          0 |          0 |          9 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\scripts\ssp.class.php                           | PHP        |        308 |        181 |         82 |        571 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\simple-header.php                               | PHP        |         88 |          0 |         14 |        102 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\underconstruction\index.html                    | HTML       |        255 |          0 |         16 |        271 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\underconstruction\js\jquery-3.6.0.js            | JavaScript |      6,895 |      1,911 |      2,076 |     10,882 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\validation\login.php                            | PHP        |        131 |         25 |         22 |        178 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\validation\logout.php                           | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\validation\register.php                         | PHP        |        150 |         21 |         21 |        192 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\admin\validation\reset-password.php                   | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\account.php                                  | PHP        |        163 |         15 |         21 |        199 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\assets\faq.php                               | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\assets\footer.php                            | PHP        |         29 |          2 |          2 |         33 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\assets\header.php                            | PHP        |        149 |          3 |         23 |        175 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\assets\simple-header.php                     | PHP        |         88 |          0 |         14 |        102 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\js\jquery-3.6.0.js                           | JavaScript |      6,895 |      1,911 |      2,075 |     10,881 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\book-a-howto.php                           | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\book-a-repair.php                          | PHP        |        145 |         12 |         10 |        167 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\borrow-an-item.php                         | PHP        |         89 |          7 |         18 |        114 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\js\jquery-3.6.0.js                         | JavaScript |      6,895 |      1,911 |      2,075 |     10,881 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\my-booked-howto.php                        | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\my-borrowed-items.php                      | PHP        |         27 |          2 |          6 |         35 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\my-repair-sessions.php                     | PHP        |         74 |          5 |          6 |         85 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\new_repair.php                             | PHP        |         19 |          6 |          5 |         30 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\simple-header.php                          | PHP        |         88 |          0 |         14 |        102 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\p\support.php                                | PHP        |         27 |          2 |          5 |         34 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\scripts\config.php                           | PHP        |         10 |         10 |          3 |         23 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\scripts\initialize.php                       | PHP        |          7 |          2 |          1 |         10 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\scripts\linksandscripts.php                  | PHP        |          9 |          0 |          0 |          9 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\scripts\ssp.class.php                        | PHP        |        308 |        181 |         82 |        571 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\underconstruction\index.html                 | HTML       |        255 |          0 |         16 |        271 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\underconstruction\js\jquery-3.6.0.js         | JavaScript |      6,895 |      1,911 |      2,076 |     10,882 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\validation\login.php                         | PHP        |        131 |         25 |         22 |        178 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\validation\logout.php                        | PHP        |          7 |          4 |          3 |         14 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\validation\register.php                      | PHP        |        150 |         21 |         21 |        192 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\customer\validation\reset-password.php                | PHP        |         89 |         15 |         13 |        117 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\index.php                                             | PHP        |        139 |          0 |         17 |        156 |
+| c:\Users\leann\Documents\GitHub\legendary-octo-guide\scripts\config.php                                    | PHP        |         10 |         10 |          3 |         23 |
+| Total                                                                                                      |            |     81,803 |     21,242 |     22,815 |    125,860 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
