@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
   </style>
   <body>
-    <?php include "./customer/assets/header.php"?>
+    <?php include "assets/header.php"?>
     <div class ="main" id="together">
         <div class="main" id="purple">
             <div> 
@@ -191,7 +191,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <h3>Privacy and Security</h3>
         </div>
     </div>
-    <?php include "footer.php"?>
+    <?php include "assets/footer.php"?>
     <script>
 
     </script>
