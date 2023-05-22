@@ -8,12 +8,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   -ms-overflow-style: none;
-  scrollbar-width: none;
-background-image: url('/src/img/background.jpg');
+  scrollbar-width: none; 
 
-}
-*, ::after, ::before{
-  box-sizing: inherit;
 }
 
 body::-webkit-scrollbar {
@@ -24,6 +20,7 @@ img{
   float: left;
   position: relative;
   block-size: 3em;
+  padding: 8px;
   margin-left: 18px;
   margin-right:24px;
 }
@@ -31,6 +28,15 @@ img{
 .navbar {
   overflow: hidden;
   background-color: rgb(0, 0, 0);
+}
+
+.subnav#userpanel {
+  float: right;
+  text-align: left;
+  display: block;
+}
+.subnav-content#userpanel{
+  right:0em;
 }
 
 .navbar a {
