@@ -94,10 +94,6 @@ img{
 </style>
 </head>
 <body>
-<div class="navbar">
-		<img href="https://octopus.jadith.co.uk/" src="/src/img/sar.png" alt="Octopus - The new project">
-</div>
-
-
+<?php include "./main/mainheader.php"?>
 </body>
 </html>
