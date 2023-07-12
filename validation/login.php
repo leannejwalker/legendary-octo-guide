@@ -8,12 +8,12 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: ../dashboard.php");
+    header("location: dashboard.php");
     exit;
 }
  
 // Include config file
-require_once "../scripts/config.php";
+require_once "/scripts/config.php";
 
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -69,14 +69,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
                             $_SESSION["access_id"] = $access_id;                            
                         
-                            if($access_id= 'Administrator'){
-                                // Redirect user to admin page
-                                header("location: admin_console/account.php");
-                            }
-                            if($access_id='Customer'){
-                                // Redirect user to volunteer page
-                                header("location: customers/account.php");
-                            }
+                                header("location: /assets/account.php");
 
                         } else{
                             // Password is not valid, display a generic error message

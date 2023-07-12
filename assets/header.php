@@ -9,7 +9,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-require_once "../scripts/config.php";
+require_once "/scripts/config.php";
 
 $currentid=$_SESSION['id'];
 $sql = ("SELECT * FROM users WHERE id=".trim($currentid)."");
@@ -116,47 +116,36 @@ img{
   display: flex;
   flex-direction: column;
 }
+
+/* New style for Administrator links */
+.subnav-content.admin a {
+  min-width: 120px;
+  text-align: left;
+  float: left 15px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
 </style>
 </head>
 <body>
 <div class="navbar">
-		<img href="https://shareandrepair.org.uk" src="img/sar.png" alt="Share and Repair">
+		<img href="https://shareandrepair.org.uk" src="img/sar.png" alt="Icon">
 		<!--<a href="account.php">Account Details</a>-->
 		
     <div class="subnav">
-        <a href="/dashboard.php">My Borrowed Items</a>
+        <a href="/dashboard.php">Dashboard</a>
 		</div>
 
-    <div class="subnav" id="userpanel">
-          <button class="subnavbtn"><?php echo $report1['fname']; ?> <?php echo $report1['lname']; ?> <i class="fa-solid fa-circle-user"></i></button>
-          <div class="subnav-content" id="userpanel">
-            <a href="account.php">Account Details</a>
-            <a href="/logout.php">Log Out</a>
-          </div>
-    
-    <div class="subnav">
-		  <button class="subnavbtn"><i class="fa-solid fa-wrench"></i> Repair <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-				<a href="my-repair-sessions.php">My Repair Sessions</a>
-				<a href="book-a-repair.php">Book a Repair Session</a>
-		  </div>
-		</div>
-    
-    <div class="subnav">
-		  <button class="subnavbtn"><i class="fa-solid fa-chalkboard-user"></i> How To <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-				<a href="my-booked-howto.php">My Booked HowTos Sessions</a>
-				<a href="book-a-howto.php">Book a HowTo Session</a>
-			</div>
-		</div>
-
-    <div class="subnav">
-		  <button class="subnavbtn"><i class="fa-solid fa-circle-info"></i> Help <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-        <a href="faq.php">FAQ</a>
-				<a href="support.php">Contact Support</a>
-			</div>
-		</div>
+    <?php
+          // Add additional links for users with the access ID "Administrator"
+          if ($_SESSION["access_id"] === "Administrator") {
+              echo '<div class="subnav-content admin">';
+                echo '<a href="admin/add-a-user.php">Add a User</a>';
+                echo '<a href="admin_console/users.php">Manage Users</a>';
+              echo '</div>';
+          }
+        ?>
 
     <?php
       if(!empty($result1)) {

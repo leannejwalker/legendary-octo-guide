@@ -11,5 +11,3 @@ RewriteRule ^register\.php$ validation/register.php [L]
 RewriteRule ^dashboard\.php$ validation/register.php [L]
 
 RewriteRule ^dashboard\.php$ validation/register.php [L]
-
-RewriteRule ^dashboard\.php$ validation/register.php [L]

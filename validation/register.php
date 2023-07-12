@@ -1,9 +1,9 @@
 <?php
 // Include config file
-require_once "../scripts/config.php";
+require_once "/scripts/config.php";
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: ../dashboard.php");
+    header("location: dashboard.php");
     exit;
 }
  
