@@ -57,9 +57,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     
   </style>
   <body>
-  <?php include "./customer/assets/header.php"?>
+  <?php include "../customer/assets/header.php"?>
   <div class="main">
-    <form action="/admin/scripts/new_user.php" method="post" id="adduser">
+    <form action="../scripts/new_user.php" method="post" id="adduser">
       <a style="color:red;">*</a>First Name:<input type="text" name = "fname" class='fname' id='fname' required/><br/>
       <a style="color:red;">*</a>Last Name: <input type="text" name = "lname" required/><br/>
       <a style="color:red;">*</a>Username: <input type="text" name="username" required><br/>

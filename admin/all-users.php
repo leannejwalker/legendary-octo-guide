@@ -62,7 +62,7 @@ function format(d) {
  
 $(document).ready(function () {
     var table = $('#example').DataTable({
-        ajax: '/admin/scripts/users.php',
+        ajax: '../scripts/users.php',
         columns: [
             {
                 className: 'dt-control',
