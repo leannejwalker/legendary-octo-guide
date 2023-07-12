@@ -7,11 +7,11 @@ session_start();
  
 // Check if the user is logged in, if not then redirect him to login page
 if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: login.php");
+    header("location: ./validation/login.php");
 }
 
 // Include config file
-require_once "/scripts/config.php";
+require_once "./scripts/config.php";
 
 $currentid=$_SESSION['id'];
 $sql1 = ("SELECT * FROM users WHERE id=".$currentid."");
