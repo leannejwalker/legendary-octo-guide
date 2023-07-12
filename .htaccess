@@ -1,1 +1,15 @@
 php_flag display_errors 1
+
+RewriteEngine On
+
+RewriteRule ^login\.php$ validation/login.php [L]
+
+RewriteRule ^logout\.php$ validation/logout.php [L]
+
+RewriteRule ^register\.php$ validation/register.php [L]
+
+RewriteRule ^dashboard\.php$ validation/register.php [L]
+
+RewriteRule ^dashboard\.php$ validation/register.php [L]
+
+RewriteRule ^dashboard\.php$ validation/register.php [L]

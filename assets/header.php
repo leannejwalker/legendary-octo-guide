@@ -124,12 +124,15 @@ img{
 		<!--<a href="account.php">Account Details</a>-->
 		
     <div class="subnav">
-		  <button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Borrow <i class="fa fa-caret-down"></i></button>
-			<div class="subnav-content">
-        <a href="my-borrowed-items.php">My Borrowed Items</a>
-				<a href="borrow-an-item.php">Borrow an Item</a>
-			</div>
+        <a href="/dashboard.php">My Borrowed Items</a>
 		</div>
+
+    <div class="subnav" id="userpanel">
+          <button class="subnavbtn"><?php echo $report1['fname']; ?> <?php echo $report1['lname']; ?> <i class="fa-solid fa-circle-user"></i></button>
+          <div class="subnav-content" id="userpanel">
+            <a href="account.php">Account Details</a>
+            <a href="/logout.php">Log Out</a>
+          </div>
     
     <div class="subnav">
 		  <button class="subnavbtn"><i class="fa-solid fa-wrench"></i> Repair <i class="fa fa-caret-down"></i></button>
