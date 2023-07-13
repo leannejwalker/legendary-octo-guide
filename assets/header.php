@@ -146,6 +146,15 @@ img{
               echo '</div>';
           }
         ?>
+            <?php
+          // Add additional links for users with the access ID "Administrator"
+          if ($_SESSION["access_id"] === "Customer") {
+              echo '<div class="subnav-content admin">';
+                echo '<a href="admin/add-a-user.php">Add a User</a>';
+                echo '<a href="admin_console/users.php">Manage Users</a>';
+              echo '</div>';
+          }
+        ?>
 
     <?php
       if(!empty($result1)) {

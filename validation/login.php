@@ -67,7 +67,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["loggedin"] = true;
                             $_SESSION["id"] = $id;
                             $_SESSION["username"] = $username;
-                            $_SESSION["access_id"] = $access_id;                            
+                            $_SESSION["access_id"] = $access_id;                           
                         
                                 header("location: ../account.php");
 
