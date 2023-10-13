@@ -95,7 +95,7 @@ img{
 </head>
 <body>
 <div class="navbar">
-		<img href="https://shareandrepair.org.uk" src="./customer/img/AQUAE_SULIS_DARKER_BLUE.png" alt="Share and Repair">
+		<img href="https://shareandrepair.org.uk" src="./img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
 </div>
 </body>
 </html>

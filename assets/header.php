@@ -130,7 +130,7 @@ img{
 </head>
 <body>
 <div class="navbar">
-		<img href="https://shareandrepair.org.uk" src="img/AQUAE_SULIS_DARKER_BLUE.png" alt="Icon">
+<img href="https://shareandrepair.org.uk" src="./img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
 		<!--<a href="account.php">Account Details</a>-->
 		
     <div class="subnav">
