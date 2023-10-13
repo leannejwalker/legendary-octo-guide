@@ -81,7 +81,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       border-radius: 1em;
     }
     .main#orange{
-      border: 0.5em solid #F36F21;
+      border: 0.5em solid #0081f3;
       margin: 1em;
       padding-left: 1em;
       padding-bottom: 1em;
@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     h1{
         text-align: left;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: #F36F21;
+        color: #0081f3;
     }
     label{
         font-weight: bold;

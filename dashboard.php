@@ -93,7 +93,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       border-radius: 1em;
     }
     .main#orange{
-      border: 0.5em solid #F36F21;
+      border: 0.5em solid #0081f3;
       margin: 1em;
       padding-left: 1em;
       padding-bottom: 1em;
@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     h1{
         text-align: left;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: #F36F21;
+        color: #0081f3;
     }
     label{
         font-weight: bold;
@@ -126,7 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div class ="main" id="together">
         <div class="main" id="purple">
             <div> 
-                <h1>Your Share and Repair Account</h1>
+                <h1><?php echo $report['fname']; ?> <?php echo $report['lname']; ?>'s Dashboard</h1>
                 <p>Welcome to your Share and Repair account. If you are new, and would like a guide through the website, please click <a href="shareandrepairguide.pdf" target="_blank" rel="noopener noreferrer"><b>here</b></a></p>
             </div>
         </div>

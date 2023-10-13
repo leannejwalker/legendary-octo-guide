@@ -153,8 +153,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
         .btn-primary {
             color: #fff;
-            background-color: #F36F21;
-            border-color: #F36F21;
+            background-color: #0081f3;
+            border-color: #0081f3;
         }
         .btn-primary:hover{
             color: #fff;

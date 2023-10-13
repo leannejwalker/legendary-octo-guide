@@ -76,7 +76,7 @@ img{
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #F36F21;
+  background-color: #0081f3;
 }
 
 .subnav-content {
@@ -98,7 +98,7 @@ img{
 }
 
 .subnav-content a:hover {
-  background-color: #F36F21;
+  background-color: #0081f3;
   color: white;
 }
 
