@@ -126,7 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div class ="main" id="together">
         <div class="main" id="purple">
             <div> 
-            <?php echo $report['fname'] . ' ' . $report['lname']; ?>'s Dashboard</h1>
+            <h1>Your Dashboard</h1>
                 <p>Welcome to your Share and Repair account. If you are new, and would like a guide through the website, please click <a href="shareandrepairguide.pdf" target="_blank" rel="noopener noreferrer"><b>here</b></a></p>
             </div>
         </div>
