@@ -126,69 +126,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <div class ="main" id="together">
         <div class="main" id="purple">
             <div> 
-            <h1>Your Dashboard</h1>
+                <h1>Your Share and Repair Account</h1>
                 <p>Welcome to your Share and Repair account. If you are new, and would like a guide through the website, please click <a href="shareandrepairguide.pdf" target="_blank" rel="noopener noreferrer"><b>here</b></a></p>
             </div>
-        </div>
-        <div class="main" id="orange">
-            <div> 
-                <h3>Account Overview</h3>
-
-<h1>                <?php
-                    foreach($result as $report) {
-                ?>
-                <div class="form-group">
-                    <br><label>First Name</label><br>
-                    <input type="text" name="fname" class="form-control" value="<?php echo $report['fname']; ?>">
-                </div>
-                <div class="form-group">
-                    <br><label>Last Name</label><br>
-                    <input type="text" name="lname" class="form-control" value="<?php echo $report['lname']; ?>">
-                </div>
-                <div class="form-group">
-                    <br><label>Username</label><br>
-                    <input type="text" name="username" class="form-control" value="<?php echo $report['username']; ?>" style="background-color: grey; opacity: 0.4;" readonly>
-                </div>
-                <div class="form-group">
-                    <br><label>Email</label><br>
-                    <input type="text" name="email" class="form-control" value="<?php echo $report['email']; ?>">
-                </div>
-                <div class="form-group">
-                    <br><label>Telephone or Mobile number</label><br>
-                    <input type="text" name="phone" class="form-control" value="<?php echo $report['phone']; ?>">
-                </div>
-                <?php
-                    }
-                ?>
-
-                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-                    <div class="form-group">
-                        <br><label>New Password</label><br>
-                        <input type="password" name="new_password" class="form-control <?php echo (!empty($new_password_err)) ? 'is-invalid' : ''; ?>" value="<?php echo $new_password; ?>">
-                        <span class="invalid-feedback"><?php echo $new_password_err; ?></span>
-                    </div>
-                    <div class="form-group">
-                        <br><label>Confirm Password</label><br>
-                        <input type="password" name="confirm_password" class="form-control <?php echo (!empty($confirm_password_err)) ? 'is-invalid' : ''; ?>">
-                        <span class="invalid-feedback"><?php echo $confirm_password_err; ?></span><br>
-                    </div>
-                    <div class="form-group">
-                        <input type="submit" class="btn btn-primary" value="Submit">
-                        <a class="btn btn-link ml-2" href="account.php">Cancel</a>
-                    </div>
-                </form>
-
-
-            </div>
-        </div>
-        <div class="main" id="purple">
-            <div> 
-                <h3>Membership</h3>
-            </div>
-        </div>
-        <div class="main" id="orange">
-        <div> 
-            <h3>Privacy and Security</h3>
         </div>
     </div>
     <?php include "assets/footer.php"?>

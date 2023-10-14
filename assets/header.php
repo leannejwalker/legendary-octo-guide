@@ -131,9 +131,15 @@ img{
 <body>
 <div class="navbar">
 <img href="https://shareandrepair.org.uk" src="./img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
-		<!--<a href="account.php">Account Details</a>-->
-		
     <div class="subnav">
+        <a href="/dashboard.php">Dashboard</a>
+        <a href="/dashboard.php">Service Catelogue</a>
+        <a href="/dashboard.php">Support</a>
+        <div class="subnav-content" id="userpanel">
+          <a href="/account.php">Submit a ticket</a>
+          <a href="/logout.php">My tickets</a>
+        </div>
+        <a href="/dashboard.php">Dashboard</a>
         <a href="/dashboard.php">Dashboard</a>
 		</div>
 
@@ -147,7 +153,7 @@ img{
           }
         ?>
             <?php
-          // Add additional links for users with the access ID "Administrator"
+          // Add additional links for users with the access ID "Customer"
           if ($_SESSION["access_id"] === "Customer") {
               echo '<div class="subnav-content admin">';
                 echo '<a href="admin/add-a-user.php">Add a User</a>';
@@ -164,6 +170,7 @@ img{
           <button class="subnavbtn"><?php echo $report1['fname']; ?> <?php echo $report1['lname']; ?> <i class="fa-solid fa-circle-user"></i></button>
           <div class="subnav-content" id="userpanel">
             <a href="account.php">Account Details</a>
+            <a href="account.php">Past Orders</a>
             <a href="/logout.php">Log Out</a>
           </div>
         </div>
