@@ -19,7 +19,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/OLD_cust/pages/howto/my-booked-howto.php](/OLD/OLD_cust/pages/howto/my-booked-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [OLD/OLD_cust/pages/repair/book-a-repair.php](/OLD/OLD_cust/pages/repair/book-a-repair.php) | PHP | 145 | 12 | 10 | 167 |
 | [OLD/OLD_cust/pages/repair/my-repair-sessions.php](/OLD/OLD_cust/pages/repair/my-repair-sessions.php) | PHP | 65 | 14 | 6 | 85 |
-| [OLD/OLD_cust./scripts/config.php](/OLD/OLD_cust./scripts/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [OLD/OLD_cust./src/config.php](/OLD/OLD_cust./src/config.php) | PHP | 10 | 10 | 3 | 23 |
 | [OLD/OLD_cust/scripts/css.php](/OLD/OLD_cust/scripts/css.php) | PHP | 6 | 0 | 0 | 6 |
 | [OLD/OLD_cust/scripts/echo.php](/OLD/OLD_cust/scripts/echo.php) | PHP | 15 | 2 | 4 | 21 |
 | [OLD/OLD_cust/scripts/js.php](/OLD/OLD_cust/scripts/js.php) | PHP | 7 | 0 | 0 | 7 |
@@ -41,7 +41,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/OLD_cust/src/misc/loginoption.html](/OLD/OLD_cust/src/misc/loginoption.html) | HTML | 0 | 0 | 1 | 1 |
 | [OLD/OLD_cust/src/misc/simple-header.php](/OLD/OLD_cust/src/misc/simple-header.php) | PHP | 86 | 0 | 14 | 100 |
 | [OLD/OLD_cust/src/underconstruction/index.html](/OLD/OLD_cust/src/underconstruction/index.html) | HTML | 255 | 0 | 16 | 271 |
-| [OLD/OLD_cust/src/underconstruction/js/jquery-3.6.0.js](/OLD/OLD_cust/src/underconstruction/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
+| [OLD/OLD_cust/src/underconstruction/resources/js/jquery-3.6.0.js](/OLD/OLD_cust/src/underconstruction/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
 | [OLD/admin/index.php](/OLD/admin/index.php) | PHP | 12 | 4 | 9 | 25 |
 | [OLD/admin/pages/borrow/borrow-an-item.php](/OLD/admin/pages/borrow/borrow-an-item.php) | PHP | 89 | 7 | 18 | 114 |
 | [OLD/admin/pages/howto/book-a-howto.php](/OLD/admin/pages/howto/book-a-howto.php) | PHP | 27 | 2 | 5 | 34 |
@@ -53,7 +53,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/admin/pages/repair/all-repair-sessions.php](/OLD/admin/pages/repair/all-repair-sessions.php) | PHP | 105 | 5 | 8 | 118 |
 | [OLD/admin/pages/repair/book-a-repair.php](/OLD/admin/pages/repair/book-a-repair.php) | PHP | 107 | 2 | 3 | 112 |
 | [OLD/admin/pages/summary.php](/OLD/admin/pages/summary.php) | PHP | 0 | 0 | 1 | 1 |
-| [OLD/admin./scripts/config.php](/OLD/admin./scripts/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [OLD/admin./src/config.php](/OLD/admin./src/config.php) | PHP | 10 | 10 | 3 | 23 |
 | [OLD/admin/scripts/css.php](/OLD/admin/scripts/css.php) | PHP | 6 | 0 | 0 | 6 |
 | [OLD/admin/scripts/echo.php](/OLD/admin/scripts/echo.php) | PHP | 13 | 2 | 4 | 19 |
 | [OLD/admin/scripts/js.php](/OLD/admin/scripts/js.php) | PHP | 7 | 0 | 0 | 7 |
@@ -75,7 +75,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/admin/src/misc/simple-header.php](/OLD/admin/src/misc/simple-header.php) | PHP | 86 | 0 | 14 | 100 |
 | [OLD/admin/src/misc/support.php](/OLD/admin/src/misc/support.php) | PHP | 27 | 2 | 5 | 34 |
 | [OLD/admin/src/underconstruction/index.html](/OLD/admin/src/underconstruction/index.html) | HTML | 255 | 0 | 16 | 271 |
-| [OLD/admin/src/underconstruction/js/jquery-3.6.0.js](/OLD/admin/src/underconstruction/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
+| [OLD/admin/src/underconstruction/resources/js/jquery-3.6.0.js](/OLD/admin/src/underconstruction/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
 | [OLD/cust/index.php](/OLD/cust/index.php) | PHP | 12 | 4 | 9 | 25 |
 | [OLD/cust/pages/borrow/borrow-an-item.php](/OLD/cust/pages/borrow/borrow-an-item.php) | PHP | 89 | 7 | 18 | 114 |
 | [OLD/cust/pages/borrow/my-borrowed-items.php](/OLD/cust/pages/borrow/my-borrowed-items.php) | PHP | 27 | 2 | 6 | 35 |
@@ -83,7 +83,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/cust/pages/howto/my-booked-howto.php](/OLD/cust/pages/howto/my-booked-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [OLD/cust/pages/repair/book-a-repair.php](/OLD/cust/pages/repair/book-a-repair.php) | PHP | 145 | 12 | 10 | 167 |
 | [OLD/cust/pages/repair/my-repair-sessions.php](/OLD/cust/pages/repair/my-repair-sessions.php) | PHP | 74 | 5 | 6 | 85 |
-| [OLD/cust./scripts/config.php](/OLD/cust./scripts/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [OLD/cust./src/config.php](/OLD/cust./src/config.php) | PHP | 10 | 10 | 3 | 23 |
 | [OLD/cust/scripts/css.php](/OLD/cust/scripts/css.php) | PHP | 6 | 0 | 0 | 6 |
 | [OLD/cust/scripts/echo.php](/OLD/cust/scripts/echo.php) | PHP | 13 | 2 | 4 | 19 |
 | [OLD/cust/scripts/js.php](/OLD/cust/scripts/js.php) | PHP | 7 | 0 | 0 | 7 |
@@ -105,7 +105,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/cust/src/misc/simple-header.php](/OLD/cust/src/misc/simple-header.php) | PHP | 86 | 0 | 14 | 100 |
 | [OLD/cust/src/misc/support.php](/OLD/cust/src/misc/support.php) | PHP | 27 | 2 | 5 | 34 |
 | [OLD/cust/src/underconstruction/index.html](/OLD/cust/src/underconstruction/index.html) | HTML | 255 | 0 | 16 | 271 |
-| [OLD/cust/src/underconstruction/js/jquery-3.6.0.js](/OLD/cust/src/underconstruction/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
+| [OLD/cust/src/underconstruction/resources/js/jquery-3.6.0.js](/OLD/cust/src/underconstruction/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
 | [README.md](/README.md) | Markdown | 3 | 0 | 3 | 6 |
 | [admin/admin_console/account.php](/admin/admin_console/account.php) | PHP | 162 | 15 | 19 | 196 |
 | [admin/admin_console/add-a-user.php](/admin/admin_console/add-a-user.php) | PHP | 109 | 6 | 11 | 126 |
@@ -118,7 +118,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [admin/admin_console/create-lot-item.php](/admin/admin_console/create-lot-item.php) | PHP | 101 | 2 | 14 | 117 |
 | [admin/admin_console/footer.php](/admin/admin_console/footer.php) | PHP | 29 | 2 | 2 | 33 |
 | [admin/admin_console/header.php](/admin/admin_console/header.php) | PHP | 167 | 3 | 22 | 192 |
-| [admin/admin_console/js/jquery-3.6.0.js](/admin/admin_console/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
+| [admin/admin_console/resources/js/jquery-3.6.0.js](/admin/admin_console/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
 | [admin/admin_console/library-of-things.php](/admin/admin_console/library-of-things.php) | PHP | 107 | 5 | 8 | 120 |
 | [admin/admin_console/login.php](/admin/admin_console/login.php) | PHP | 122 | 22 | 20 | 164 |
 | [admin/admin_console/logout.php](/admin/admin_console/logout.php) | PHP | 7 | 4 | 3 | 14 |
@@ -138,7 +138,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [admin/customers/borrow-an-item.php](/admin/customers/borrow-an-item.php) | PHP | 89 | 7 | 18 | 114 |
 | [admin/customers/config.php](/admin/customers/config.php) | PHP | 10 | 10 | 3 | 23 |
 | [admin/customers/header.php](/admin/customers/header.php) | PHP | 149 | 3 | 23 | 175 |
-| [admin/customers/js/jquery-3.6.0.js](/admin/customers/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
+| [admin/customers/resources/js/jquery-3.6.0.js](/admin/customers/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
 | [admin/customers/my-booked-howto.php](/admin/customers/my-booked-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [admin/customers/my-borrowed-items.php](/admin/customers/my-borrowed-items.php) | PHP | 27 | 2 | 6 | 35 |
 | [admin/customers/my-repair-sessions.php](/admin/customers/my-repair-sessions.php) | PHP | 74 | 5 | 6 | 85 |
@@ -147,7 +147,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [admin/customers/support.php](/admin/customers/support.php) | PHP | 27 | 2 | 5 | 34 |
 | [admin/faq.php](/admin/faq.php) | PHP | 27 | 2 | 5 | 34 |
 | [admin/footer.php](/admin/footer.php) | PHP | 29 | 2 | 2 | 33 |
-| [admin/js/jquery-3.6.0.js](/admin/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
+| [admin/resources/js/jquery-3.6.0.js](/admin/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
 | [admin/login.php](/admin/login.php) | PHP | 130 | 24 | 20 | 174 |
 | [admin/logout.php](/admin/logout.php) | PHP | 7 | 4 | 3 | 14 |
 | [admin/register.php](/admin/register.php) | PHP | 146 | 21 | 20 | 187 |
@@ -157,38 +157,38 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [admin/scripts/ssp.class.php](/admin/scripts/ssp.class.php) | PHP | 308 | 181 | 82 | 571 |
 | [admin/simple-header.php](/admin/simple-header.php) | PHP | 88 | 0 | 14 | 102 |
 | [admin/underconstruction/index.html](/admin/underconstruction/index.html) | HTML | 255 | 0 | 16 | 271 |
-| [admin/underconstruction/js/jquery-3.6.0.js](/admin/underconstruction/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
+| [admin/underconstruction/resources/js/jquery-3.6.0.js](/admin/underconstruction/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
 | [admin/validation/login.php](/admin/validation/login.php) | PHP | 131 | 25 | 22 | 178 |
 | [admin/validation/logout.php](/admin/validation/logout.php) | PHP | 7 | 4 | 3 | 14 |
 | [admin/validation/register.php](/admin/validation/register.php) | PHP | 150 | 21 | 21 | 192 |
 | [admin/validation/reset-password.php](/admin/validation/reset-password.php) | PHP | 89 | 15 | 13 | 117 |
 | [customer/account.php](/customer/account.php) | PHP | 163 | 15 | 21 | 199 |
 | [customer/assets/faq.php](/customer/assets/faq.php) | PHP | 27 | 2 | 5 | 34 |
-| [customer/assets/footer.php](/customer/assets/footer.php) | PHP | 29 | 2 | 2 | 33 |
-| [customer/assets/header.php](/customer/assets/header.php) | PHP | 149 | 3 | 23 | 175 |
+| [customer//src/footer.php](/customer//src/footer.php) | PHP | 29 | 2 | 2 | 33 |
+| [customer//src/header.php](/customer//src/header.php) | PHP | 149 | 3 | 23 | 175 |
 | [customer/assets/simple-header.php](/customer/assets/simple-header.php) | PHP | 88 | 0 | 14 | 102 |
-| [customer/js/jquery-3.6.0.js](/customer/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
+| [customer/resources/js/jquery-3.6.0.js](/customer/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
 | [customer/p/book-a-howto.php](/customer/p/book-a-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [customer/p/book-a-repair.php](/customer/p/book-a-repair.php) | PHP | 145 | 12 | 10 | 167 |
 | [customer/p/borrow-an-item.php](/customer/p/borrow-an-item.php) | PHP | 89 | 7 | 18 | 114 |
-| [customer/p/js/jquery-3.6.0.js](/customer/p/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
+| [customer/p/resources/js/jquery-3.6.0.js](/customer/p/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,075 | 10,881 |
 | [customer/p/my-booked-howto.php](/customer/p/my-booked-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [customer/p/my-borrowed-items.php](/customer/p/my-borrowed-items.php) | PHP | 27 | 2 | 6 | 35 |
 | [customer/p/my-repair-sessions.php](/customer/p/my-repair-sessions.php) | PHP | 74 | 5 | 6 | 85 |
 | [customer/p/new_repair.php](/customer/p/new_repair.php) | PHP | 19 | 6 | 5 | 30 |
 | [customer/p/simple-header.php](/customer/p/simple-header.php) | PHP | 88 | 0 | 14 | 102 |
 | [customer/p/support.php](/customer/p/support.php) | PHP | 27 | 2 | 5 | 34 |
-| [customer./scripts/config.php](/customer./scripts/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [customer./src/config.php](/customer./src/config.php) | PHP | 10 | 10 | 3 | 23 |
 | [customer/scripts/initialize.php](/customer/scripts/initialize.php) | PHP | 7 | 2 | 1 | 10 |
 | [customer/scripts/linksandscripts.php](/customer/scripts/linksandscripts.php) | PHP | 9 | 0 | 0 | 9 |
 | [customer/scripts/ssp.class.php](/customer/scripts/ssp.class.php) | PHP | 308 | 181 | 82 | 571 |
 | [customer/underconstruction/index.html](/customer/underconstruction/index.html) | HTML | 255 | 0 | 16 | 271 |
-| [customer/underconstruction/js/jquery-3.6.0.js](/customer/underconstruction/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
+| [customer/underconstruction/resources/js/jquery-3.6.0.js](/customer/underconstruction/resources/js/jquery-3.6.0.js) | JavaScript | 6,895 | 1,911 | 2,076 | 10,882 |
 | [customer/validation/login.php](/customer/validation/login.php) | PHP | 131 | 25 | 22 | 178 |
 | [customer/validation/logout.php](/customer/validation/logout.php) | PHP | 7 | 4 | 3 | 14 |
 | [customer/validation/register.php](/customer/validation/register.php) | PHP | 150 | 21 | 21 | 192 |
 | [customer/validation/reset-password.php](/customer/validation/reset-password.php) | PHP | 89 | 15 | 13 | 117 |
 | [index.php](/index.php) | PHP | 139 | 0 | 17 | 156 |
-| [scripts/config.php](./scripts/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [scripts/config.php](./src/config.php) | PHP | 10 | 10 | 3 | 23 |
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

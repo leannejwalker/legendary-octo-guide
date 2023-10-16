@@ -9,7 +9,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
  
 // Include config file
-require_once "../scripts/config.php";
+require_once "../src/config.php";
  
 // Define variables and initialize with empty values
 $new_password = $confirm_password = "";
@@ -80,7 +80,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif;
-            background-image: url('/src/img/background.jpg');
+            background-image: url('/src/resources/img/background.jpg');
         }
         .wrapper{
             border: 0.1em solid #ffffff;

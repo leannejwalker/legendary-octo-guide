@@ -10,7 +10,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+<script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
   <head>
       <meta charset="UTF-8">
       <title>Book a Repair - Share and Repair</title>
@@ -55,7 +55,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     }
   </style>
   <body>
-  <?php include "./customer/assets/header.php"?>
+  <?php include "./customer//src/header.php"?>
   <div class="main">
     <form action="new_repair.php" method="post" id="getrepaired">
     <a style="color:red;">*</a>Item Category: <select id="category" name="category" required>

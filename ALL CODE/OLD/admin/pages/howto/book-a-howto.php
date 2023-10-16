@@ -10,7 +10,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+<script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
   <head>
       <meta charset="UTF-8">
       <title>Book a HowTo - Share and Repair</title>
@@ -19,12 +19,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </head>
   <style>
     body {
-    background-image: url('/src/img/background.jpg');
+    background-image: url('/src/resources/img/background.jpg');
   }
   </style>
 
   <body>
-  <?php include "./customer/assets/header.php"?>
+  <?php include "./customer//src/header.php"?>
 
     
     <script>

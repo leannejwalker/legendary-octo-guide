@@ -82,7 +82,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif; 
-            background-image: url('/src/img/background.jpg');
+            background-image: url('/src/resources/img/background.jpg');
             overflow: hidden;
             width: 100%;
         }

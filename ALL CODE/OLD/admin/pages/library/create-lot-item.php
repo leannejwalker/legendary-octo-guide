@@ -10,7 +10,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+<script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
   <head>
       <meta charset="UTF-8">
       <title>Create a Library of Things item - Share and Repair</title>
@@ -19,7 +19,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </head>
   <style>
     body {
-      background-image: url('/src/img/background.jpg');
+      background-image: url('/src/resources/img/background.jpg');
     }
     .main{
       border: 0.1em solid #ffffff;
@@ -55,7 +55,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     }
   </style>
   <body>
-  <?php include "./customer/assets/header.php"?>
+  <?php include "./customer//src/header.php"?>
   <div class="main">
     <form action="new_item.php" method="post">
     <!--upload photo-->

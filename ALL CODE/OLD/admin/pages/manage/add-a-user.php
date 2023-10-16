@@ -16,11 +16,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <title>Add a User - Share and Repair</title>
       <link rel="icon" type="image/x-icon" href="img/favicon.ico">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+      <script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
     </head>
   <style>
     body {
-      background-image: url('/src/img/background.jpg');
+      background-image: url('/src/resources/img/background.jpg');
     }
     .main{
       border: 0.1em solid #ffffff;
@@ -57,7 +57,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     
   </style>
   <body>
-  <?php include "./customer/assets/header.php"?>
+  <?php include "./customer//src/header.php"?>
   <div class="main">
     <form action="new_user.php" method="post" id="adduser">
       <a style="color:red;">*</a>First Name:<input type="text" name = "fname" class='fname' id='fname' required/><br/>

@@ -22,7 +22,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </style>
 
   <body>
-  <?php include "./customer/assets/header.php"?>
+  <?php include "./customer//src/header.php"?>
 
     
     <script>

@@ -21,7 +21,7 @@ $singleRow = mysqli_fetch_assoc($result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<script language="JavaScript" type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+<script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
 <head>
   <meta charset="UTF-8">
   <title>My Repair Sessions - Share and Repair</title>
@@ -58,7 +58,7 @@ $singleRow = mysqli_fetch_assoc($result);
     }
 </style>
 <body>
-    <?php include "./customer/assets/header.php"?>
+    <?php include "./customer//src/header.php"?>
     <div class="main">
       <table>
         <tr>
