@@ -2,12 +2,12 @@ php_flag display_errors 1
 
 RewriteEngine On
 
-RewriteRule ^login\.php$ public/validation/login.php [L]
+RewriteRule ^login\.php$ /public/validation/login.php [L]
 
-RewriteRule ^logout\.php$ public/validation/logout.php [L]
+RewriteRule ^logout\.php$ /public/validation/logout.php [L]
 
-RewriteRule ^register\.php$ public/validation/register.php [L]
+RewriteRule ^register\.php$ /public/validation/register.php [L]
 
-RewriteRule ^dashboard\.php$ public/register.php [L]
+RewriteRule ^dashboard\.php$ /public/register.php [L]
 
-RewriteRule ^account\.php$ public/account.php [L]
+RewriteRule ^account\.php$ /public/account.php [L]
