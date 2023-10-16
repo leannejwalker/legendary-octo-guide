@@ -13,7 +13,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 }
  
 // Include config file
-require_once "../src/config.php";
+require_once "/src/config.php";
 
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -69,7 +69,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
                             $_SESSION["access_id"] = $access_id;                           
                         
-                                header("location: ../account.php");
+                                header("location: account.php");
 
                         } else{
                             // Password is not valid, display a generic error message
@@ -104,7 +104,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif; 
-            background-image: url('img/background.jpg');
+            background-image: url('/resources/img/background.jpg');
             overflow: hidden;
         }
         .wrapper{
@@ -133,7 +133,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include "../assets/simple-header.php"?>
+<?php include "/src/simple-header.php"?>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>

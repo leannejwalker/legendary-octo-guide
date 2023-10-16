@@ -137,7 +137,7 @@ $(document).ready(function () {
 </script>
 <style>
   body {
-    background-image: url('img/background.jpg');
+    background-image: url('/resources/img/background.jpg');
     overflow: auto;
   }
   .main{

@@ -30,7 +30,7 @@ $singleRow = mysqli_fetch_assoc($result);
 </head>
 <style>
   body {
-    background-image: url('img/background.jpg');
+    background-image: url('/resources/img/background.jpg');
   }
   .main{
       border: 0.1em solid #ffffff;

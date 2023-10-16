@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "../src/config.php";
+require_once "/src/config.php";
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     header("location: dashboard.php");
@@ -116,7 +116,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif;
-            background-image: url('img/background.jpg');
+            background-image: url('/resources/img/background.jpg');
             /*overflow: hidden;*/
         }
         .wrapper{
@@ -155,7 +155,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include "../assets/simple-header.php"?>
+<?php include "/src/simple-header.php"?>
     <div class="wrapper">
         <h2>Sign Up</h2>
         <p>Please fill this form to create an account.</p>

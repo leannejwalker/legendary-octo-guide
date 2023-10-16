@@ -2,7 +2,7 @@
 
 ini_set('display_errors', 1); ini_set('display_startup_errors', 1); error_reporting(E_ALL);
 
-require_once "../src/config.php";
+require_once "/src/config.php";
 
 $currentid=$_SESSION['id'];
 $sql1 = ("SELECT * FROM users WHERE id=".$currentid."");
@@ -97,7 +97,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       background: rgba(255, 255, 255, 0.9);
     }
     body {
-        background-image: url('/src/resources/img/background.jpg');
+        background-image: url('/src/resources//resources/img/background.jpg');
     }
     h1{
         text-align: left;

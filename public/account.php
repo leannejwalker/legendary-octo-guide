@@ -11,7 +11,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 
 // Include config file
-require_once "./src/config.php";
+require_once "/src/config.php";
 
 $currentid=$_SESSION['id'];
 $sql1 = ("SELECT * FROM users WHERE id=".$currentid."");
@@ -81,7 +81,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <head>
       <meta charset="UTF-8">
       <title>Your Account - Share and Repair</title>
-      <link rel="icon" type="image/x-icon" href="/resources/img/favicon.ico">
+      <link rel="icon" type="image/x-icon" href="/resources/resources/img/favicon.ico">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
     </head>
@@ -109,7 +109,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       background: rgba(255, 255, 255, 0.9);
     }
     body {
-        background-image: url('/resources/img/background.jpg');
+        background-image: url('/resources//resources/img/background.jpg');
     }
     h1{
         text-align: left;

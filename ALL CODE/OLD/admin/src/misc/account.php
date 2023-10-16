@@ -93,7 +93,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       background: rgba(255, 255, 255, 0.9);
     }
     body {
-        background-image: url('/src/resources/img/background.jpg');
+        background-image: url('/src/resources//resources/img/background.jpg');
     }
     h1{
         text-align: left;

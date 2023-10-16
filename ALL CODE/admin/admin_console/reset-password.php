@@ -80,7 +80,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif;
-            background-image: url('img/background.jpg');
+            background-image: url('/resources/img/background.jpg');
         }
         .wrapper{
             border: 0.1em solid #ffffff;
