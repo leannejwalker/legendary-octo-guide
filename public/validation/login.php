@@ -13,7 +13,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 }
  
 // Include config file
-require_once "/src/config.php";
+require_once "src/config.php";
 
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -99,7 +99,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="icon" type="image/x-icon" href="/resources/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="resources/img/favicon.ico">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body{
@@ -133,7 +133,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include "/src/simple-header.php"?>
+<?php include "src/simple-header.php"?>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
