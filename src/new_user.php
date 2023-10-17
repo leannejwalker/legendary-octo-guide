@@ -1,6 +1,6 @@
 <?php
 
-require_once "/src/config.php";
+require_once "src\config.php";
 
 /*$username = "brobdingnagian";
 $password = "Qsvd24^54";

@@ -1,6 +1,6 @@
 <!-- <?php
 
-require_once "/src/config.php";
+require_once "src\config.php";
 
 $currentid=$_SESSION['id'];
 $sql = ("SELECT * FROM users WHERE id=".trim($currentid)."");

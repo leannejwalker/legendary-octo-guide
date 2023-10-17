@@ -19,7 +19,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/OLD_cust/pages/howto/my-booked-howto.php](/OLD/OLD_cust/pages/howto/my-booked-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [OLD/OLD_cust/pages/repair/book-a-repair.php](/OLD/OLD_cust/pages/repair/book-a-repair.php) | PHP | 145 | 12 | 10 | 167 |
 | [OLD/OLD_cust/pages/repair/my-repair-sessions.php](/OLD/OLD_cust/pages/repair/my-repair-sessions.php) | PHP | 65 | 14 | 6 | 85 |
-| [OLD/OLD_cust/src/config.php](/OLD/OLD_cust/src/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [OLD/OLD_custsrc\config.php](/OLD/OLD_custsrc\config.php) | PHP | 10 | 10 | 3 | 23 |
 | [OLD/OLD_cust/scripts/css.php](/OLD/OLD_cust/scripts/css.php) | PHP | 6 | 0 | 0 | 6 |
 | [OLD/OLD_cust/scripts/echo.php](/OLD/OLD_cust/scripts/echo.php) | PHP | 15 | 2 | 4 | 21 |
 | [OLD/OLD_cust/scripts/js.php](/OLD/OLD_cust/scripts/js.php) | PHP | 7 | 0 | 0 | 7 |
@@ -53,7 +53,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/admin/pages/repair/all-repair-sessions.php](/OLD/admin/pages/repair/all-repair-sessions.php) | PHP | 105 | 5 | 8 | 118 |
 | [OLD/admin/pages/repair/book-a-repair.php](/OLD/admin/pages/repair/book-a-repair.php) | PHP | 107 | 2 | 3 | 112 |
 | [OLD/admin/pages/summary.php](/OLD/admin/pages/summary.php) | PHP | 0 | 0 | 1 | 1 |
-| [OLD/admin/src/config.php](/OLD/admin/src/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [OLD/adminsrc\config.php](/OLD/adminsrc\config.php) | PHP | 10 | 10 | 3 | 23 |
 | [OLD/admin/scripts/css.php](/OLD/admin/scripts/css.php) | PHP | 6 | 0 | 0 | 6 |
 | [OLD/admin/scripts/echo.php](/OLD/admin/scripts/echo.php) | PHP | 13 | 2 | 4 | 19 |
 | [OLD/admin/scripts/js.php](/OLD/admin/scripts/js.php) | PHP | 7 | 0 | 0 | 7 |
@@ -83,7 +83,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [OLD/cust/pages/howto/my-booked-howto.php](/OLD/cust/pages/howto/my-booked-howto.php) | PHP | 27 | 2 | 5 | 34 |
 | [OLD/cust/pages/repair/book-a-repair.php](/OLD/cust/pages/repair/book-a-repair.php) | PHP | 145 | 12 | 10 | 167 |
 | [OLD/cust/pages/repair/my-repair-sessions.php](/OLD/cust/pages/repair/my-repair-sessions.php) | PHP | 74 | 5 | 6 | 85 |
-| [OLD/cust/src/config.php](/OLD/cust/src/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [OLD/custsrc\config.php](/OLD/custsrc\config.php) | PHP | 10 | 10 | 3 | 23 |
 | [OLD/cust/scripts/css.php](/OLD/cust/scripts/css.php) | PHP | 6 | 0 | 0 | 6 |
 | [OLD/cust/scripts/echo.php](/OLD/cust/scripts/echo.php) | PHP | 13 | 2 | 4 | 19 |
 | [OLD/cust/scripts/js.php](/OLD/cust/scripts/js.php) | PHP | 7 | 0 | 0 | 7 |
@@ -178,7 +178,7 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [customer/p/new_repair.php](/customer/p/new_repair.php) | PHP | 19 | 6 | 5 | 30 |
 | [customer/p/simple-header.php](/customer/p/simple-header.php) | PHP | 88 | 0 | 14 | 102 |
 | [customer/p/support.php](/customer/p/support.php) | PHP | 27 | 2 | 5 | 34 |
-| [customer/src/config.php](/customer/src/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [customersrc\config.php](/customersrc\config.php) | PHP | 10 | 10 | 3 | 23 |
 | [customer/scripts/initialize.php](/customer/scripts/initialize.php) | PHP | 7 | 2 | 1 | 10 |
 | [customer/scripts/linksandscripts.php](/customer/scripts/linksandscripts.php) | PHP | 9 | 0 | 0 | 9 |
 | [customer/scripts/ssp.class.php](/customer/scripts/ssp.class.php) | PHP | 308 | 181 | 82 | 571 |
@@ -189,6 +189,6 @@ Total : 179 files,  81803 codes, 21242 comments, 22815 blanks, all 125860 lines
 | [customer/validation/register.php](/customer/validation/register.php) | PHP | 150 | 21 | 21 | 192 |
 | [customer/validation/reset-password.php](/customer/validation/reset-password.php) | PHP | 89 | 15 | 13 | 117 |
 | [index.php](/index.php) | PHP | 139 | 0 | 17 | 156 |
-| [scripts/config.php](/src/config.php) | PHP | 10 | 10 | 3 | 23 |
+| [scripts/config.php](src\config.php) | PHP | 10 | 10 | 3 | 23 |
 
 [Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
