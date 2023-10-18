@@ -8,7 +8,7 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: dashboard.php");
+    header("location: /public/dashboard.php");
     exit;
 }
  
@@ -70,7 +70,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
                             $_SESSION["access_id"] = $access_id;                           
                         
-                                header("/public/dashboard.php");
+                                header($_SERVER['DOCUMENT_ROOT'] . "/public/dashboard.php");
 
                         } else{
                             // Password is not valid, display a generic error message
