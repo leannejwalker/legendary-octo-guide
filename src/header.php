@@ -136,7 +136,7 @@ img{
 		</div>
     <?php
           // Add additional links for users with the access ID "Administrator"
-          if ($_SESSION["access_id"] === "Administrator") {
+          if ($_SESSION["access_id"] === "admin") {
               echo '<div class="subnav-content admin">';
                 echo '<a href="/public/admin/user-management/add-a-user.php">Add a User</a>';
                 echo '<a href="/public/admin/user-management/users.php">Manage Users</a>';
@@ -145,7 +145,7 @@ img{
         ?>
             <?php
           // Add additional links for users with the access ID "Customer"
-          if ($_SESSION["access_id"] === "Customer") {
+          if ($_SESSION["access_id"] === "customer") {
               echo '<div class="subnav-content admin">';
                 echo '<a href="/public/services.php">Service Catalogue</a>';
               echo '</div>';
