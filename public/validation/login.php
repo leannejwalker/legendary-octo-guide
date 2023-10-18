@@ -70,7 +70,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
                             $_SESSION["access_id"] = $access_id;                           
                         
-                                header("/public/account.php");
+                                header("/public/dashboard.php");
 
                         } else{
                             // Password is not valid, display a generic error message
