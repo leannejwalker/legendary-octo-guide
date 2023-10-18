@@ -11,7 +11,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 
 // Include config file
-require_once $_SERVER['DOCUMENT_ROOT'] ."/src/config.php";
+require_once ($_SERVER['DOCUMENT_ROOT'] ."/src/config.php");
 
 $currentid=$_SESSION['id'];
 $sql1 = ("SELECT * FROM users WHERE id=".$currentid."");
@@ -131,7 +131,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
         </div>
     </div>
-    <?php include "$_SERVER['DOCUMENT_ROOT'] . /src/footer.php"?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . "/src/footer.php"?>
     <script>
 
     </script>
