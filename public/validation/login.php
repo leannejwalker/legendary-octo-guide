@@ -70,7 +70,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;
                             $_SESSION["access_id"] = $access_id;                           
                         
-                                header($_SERVER['DOCUMENT_ROOT'] . "/public/dashboard.php");
+                            header("/public/dashboard.php");
 
                         } else{
                             // Password is not valid, display a generic error message
@@ -105,7 +105,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif; 
-            background-image: url($_SERVER['DOCUMENT_ROOT'] .'./resources/img/background.jpg');
+            background-image: '/resources/img/background.jpg';
             overflow: hidden;
         }
         .wrapper{
@@ -134,7 +134,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
-<?php include $_SERVER['DOCUMENT_ROOT'] ."/src/simple-header.php"?>
+<?php include ($_SERVER['DOCUMENT_ROOT'] ."/src/simple-header.php")?>
     <div class="wrapper">
         <h2>Login</h2>
         <p>Please fill in your credentials to login.</p>
