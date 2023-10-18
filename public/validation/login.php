@@ -13,7 +13,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 }
  
 // Include config file
-require_once($_SERVER['DOCUMENT_ROOT'] ."src/config.php");
+require_once ($_SERVER['DOCUMENT_ROOT'] .'src/config.php');
 
 
 // Define variables and initialize with empty values
