@@ -11,7 +11,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 
 // Include config file
-require_once "src\config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] ."/src/config.php";
 
 $currentid=$_SESSION['id'];
 $sql1 = ("SELECT * FROM users WHERE id=".$currentid."");
@@ -109,7 +109,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       background: rgba(255, 255, 255, 0.9);
     }
     body {
-        background-image: url('/resources//resources/img/background.jpg');
+        background-image: url('/resources/img/background.jpg');
     }
     h1{
         text-align: left;
@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
   </style>
   <body>
-    <?php include "/src/header.php"?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . "/src/header.php"?>
     <div class ="main" id="together">
         <div class="main" id="purple">
             <div> 
@@ -131,7 +131,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
         </div>
     </div>
-    <?php include "/src/footer.php"?>
+    <?php include "$_SERVER['DOCUMENT_ROOT'] . /src/footer.php"?>
     <script>
 
     </script>

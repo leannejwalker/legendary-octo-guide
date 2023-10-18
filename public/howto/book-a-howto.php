@@ -14,7 +14,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <head>
       <meta charset="UTF-8">
       <title>Book a HowTo - Share and Repair</title>
-      <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+      <link rel="icon" type="image/x-icon" href="/resources/img/favicon.ico">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <style>
@@ -24,7 +24,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </style>
 
   <body>
-  <?php include "./customer//src/header.php"?>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . "/src/header.php"?>
 
     
     <script>

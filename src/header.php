@@ -9,7 +9,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-require_once "src\config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] ."src\config.php";
 
 $currentid=$_SESSION['id'];
 $sql = ("SELECT * FROM users WHERE id=".trim($currentid)."");
@@ -130,25 +130,16 @@ img{
 </head>
 <body>
 <div class="navbar">
-<img href="https://shareandrepair.org.uk" src=($_SERVER['DOCUMENT_ROOT'] ."/img/AQUAE_SULIS_DARKER_BLUE.png") alt="Aquae Sulis Web Solutions Home">
+<img href="https://shareandrepair.org.uk" src="/img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
     <div class="subnav">
         <a href="/dashboard.php">Dashboard</a>
-        <a href="/dashboard.php">Service Catelogue</a>
-        <a href="/dashboard.php">Support</a>
-        <div class="subnav-content" id="userpanel">
-          <a href="/account.php">Submit a ticket</a>
-          <a href="/logout.php">My tickets</a>
-        </div>
-        <a href="/dashboard.php">Dashboard</a>
-        <a href="/dashboard.php">Dashboard</a>
 		</div>
-
     <?php
           // Add additional links for users with the access ID "Administrator"
           if ($_SESSION["access_id"] === "Administrator") {
               echo '<div class="subnav-content admin">';
-                echo '<a href="admin/add-a-user.php">Add a User</a>';
-                echo '<a href="admin_console/users.php">Manage Users</a>';
+                echo '<a href="/public/admin/user-management/add-a-user.php">Add a User</a>';
+                echo '<a href="/public/admin/user-management/users.php">Manage Users</a>';
               echo '</div>';
           }
         ?>
@@ -156,8 +147,13 @@ img{
           // Add additional links for users with the access ID "Customer"
           if ($_SESSION["access_id"] === "Customer") {
               echo '<div class="subnav-content admin">';
-                echo '<a href="admin/add-a-user.php">Add a User</a>';
-                echo '<a href="admin_console/users.php">Manage Users</a>';
+                echo '<a href="/public/services.php">Service Catalogue</a>';
+              echo '</div>';
+              echo '<a href="/support.php">Support</a>';
+              echo '<div class="subnav-content" id="userpanel">';
+                echo '<a href="/support/new.php">Submit a ticket</a>';
+                echo '<a href="/support/ticket.php">My tickets</a>';
+                echo '<a href="/faq.php">My tickets</a>';
               echo '</div>';
           }
         ?>
@@ -170,7 +166,7 @@ img{
           <button class="subnavbtn"><?php echo $report1['fname']; ?> <?php echo $report1['lname']; ?> <i class="fa-solid fa-circle-user"></i></button>
           <div class="subnav-content" id="userpanel">
             <a href="account.php">Account Details</a>
-            <a href="account.php">Past Orders</a>
+            <a href="orders.php">Past Orders</a>
             <a href="logout.php">Log Out</a>
           </div>
         </div>
