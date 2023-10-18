@@ -130,7 +130,7 @@ img{
 </head>
 <body>
 <div class="navbar">
-<img href="https://shareandrepair.org.uk" src="./img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
+<img href="https://shareandrepair.org.uk" src=($_SERVER['DOCUMENT_ROOT'] ."/img/AQUAE_SULIS_DARKER_BLUE.png") alt="Aquae Sulis Web Solutions Home">
     <div class="subnav">
         <a href="/dashboard.php">Dashboard</a>
         <a href="/dashboard.php">Service Catelogue</a>
@@ -171,7 +171,7 @@ img{
           <div class="subnav-content" id="userpanel">
             <a href="account.php">Account Details</a>
             <a href="account.php">Past Orders</a>
-            <a href="/logout.php">Log Out</a>
+            <a href="logout.php">Log Out</a>
           </div>
         </div>
         <?php
