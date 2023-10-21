@@ -136,7 +136,7 @@ img{
 		</div>
     <?php
           // Add additional links for users with the access ID "Administrator"
-          if ($_SESSION["access_id"] === "admin") {
+          if ($access_id === "admin") {
             echo '<div class="subnav">';
             echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Users <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
