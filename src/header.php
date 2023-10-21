@@ -160,16 +160,10 @@ img{
             echo '</div>';
           }
           // Add additional links for users with the access ID "Customer"
-          if ($_SESSION["access_id"] === "customer") {
-              echo '<div class="subnav-content admin">';
-                echo '<a href="/public/services.php">Service Catalogue</a>';
-              echo '</div>';
+          if ($access_id === "customer") {
+              echo '<a href="/public/services.php">Service Catalogue</a>';
               echo '<a href="/support.php">Support</a>';
-              echo '<div class="subnav-content" id="userpanel">';
-                echo '<a href="/support/new.php">Submit a ticket</a>';
-                echo '<a href="/support/ticket.php">My tickets</a>';
-                echo '<a href="/faq.php">My tickets</a>';
-              echo '</div>';
+              echo '<a href="/faq.php">FAQ</a>';
           }
         ?>
 
