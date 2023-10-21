@@ -16,7 +16,19 @@ $sql = ("SELECT * FROM users WHERE id=".trim($currentid)."");
 $result1 = mysqli_query($link, $sql);
 $report1 = mysqli_fetch_assoc($result1);
 
-$access_id=$_SESSION['access_id'];
+$currentid = $_SESSION['id'];
+$sql = "SELECT access_id FROM users WHERE id = " . intval($currentid);
+$result = mysqli_query($link, $sql);
+if ($result) {
+    $row = mysqli_fetch_assoc($result);
+    if ($row) {
+        $access_id = $row['access_id'];
+    } else {
+        $access_id = "unknown";
+    }
+} else {
+    $access_id = "unknown";
+}
 
 ?>
 <!DOCTYPE html>
