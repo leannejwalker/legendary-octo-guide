@@ -2,7 +2,7 @@ php_flag display_errors 1
 
 RewriteEngine On
 
-RewriteRule ^login\.php$ login.php [L]
+RewriteRule ^login\.php$ /public/validation/login.php [L]
 
 RewriteRule ^logout\.php$ /public/validation/logout.php [L]
 
