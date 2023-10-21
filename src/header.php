@@ -16,6 +16,8 @@ $sql = ("SELECT * FROM users WHERE id=".trim($currentid)."");
 $result1 = mysqli_query($link, $sql);
 $report1 = mysqli_fetch_assoc($result1);
 
+$access_id=$_SESSION['access_id'];
+
 ?>
 <!DOCTYPE html>
 <html>
