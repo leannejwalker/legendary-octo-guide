@@ -144,7 +144,7 @@ img{
 </head>
 <body>
 <div class="navbar">
-<img href="https://shareandrepair.org.uk" src="/img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
+<img href="https://shareandrepair.org.uk" src="/resources/img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
     <div class="subnav">
         <a href="/dashboard.php">Dashboard</a>
 		</div>
@@ -155,7 +155,7 @@ img{
             echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Users <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
               echo '<a href="/public/admin/user-management/add-a-user.php">Add a User</a>';
-              echo '<a href="/public/admin/user-management/users.php">Manage Users</a>';
+              echo '<a href="/public/admin/user-management/all-users.php">Manage Users</a>';
               echo '</div>';
             echo '</div>';
           }
