@@ -117,7 +117,7 @@ img{
   flex-direction: column;
 }
 
-/* New style for Administrator links */
+/* New style for Administrator links
 .subnav-content.admin a {
   min-width: 120px;
   text-align: left;
@@ -125,7 +125,7 @@ img{
   color: white;
   text-decoration: none;
   display: block;
-}
+}*/
 </style>
 </head>
 <body>
@@ -142,8 +142,6 @@ img{
                 echo '<a href="/public/admin/user-management/users.php">Manage Users</a>';
               echo '</div>';
           }
-        ?>
-            <?php
           // Add additional links for users with the access ID "Customer"
           if ($_SESSION["access_id"] === "customer") {
               echo '<div class="subnav-content admin">';
