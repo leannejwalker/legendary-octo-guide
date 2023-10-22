@@ -151,19 +151,55 @@ img{
     <?php
           // Add additional links for users with the access ID "Administrator"
           if ($access_id === "admin") {
+            echo '<a href="/public/services.php">Customers</a>';
+            echo '<a href="/support.php">Companies</a>';
+            echo '<a href="/faq.php">Orders</a>';
+            echo '<a href="/faq.php">Jobs</a>';
+            // Email Marketing Subnav
             echo '<div class="subnav">';
-            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Users <i class="fa fa-caret-down"></i></button>';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Marketing <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
-              echo '<a href="/public/admin/user-management/add-a-user.php">Add a User</a>';
-              echo '<a href="/public/admin/user-management/all-users.php">Manage Users</a>';
+              echo '<a href="/public/admin/user-management/add-a-user.php">Email</a>';
+              echo '<a href="/public/admin/user-management/all-users.php">Social Media</a>';
               echo '</div>';
             echo '</div>';
+            // End of Email Marketing Subnav
+            echo '<a href="/support.php">Billing</a>';
+            echo '<a href="/faq.php">Alerts</a>';
+            echo '<a href="/faq.php">Reports & Analytics</a>';
           }
+
           // Add additional links for users with the access ID "Customer"
           if ($access_id === "customer") {
-              echo '<a href="/public/services.php">Service Catalogue</a>';
-              echo '<a href="/support.php">Support</a>';
-              echo '<a href="/faq.php">FAQ</a>';
+          // Services Subnav
+            echo '<div class="subnav">';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Services <i class="fa fa-caret-down"></i></button>';
+            echo '<div class="subnav-content">';
+              echo '<a href="/public/admin/user-management/add-a-user.php">All Services</a>';
+              echo '<a href="/public/admin/user-management/all-users.php">Partner Services</a>';
+              echo '</div>';
+            echo '</div>';
+            // End of Services Subnav
+            // Billing Subnav
+            echo '<div class="subnav">';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Billing <i class="fa fa-caret-down"></i></button>';
+            echo '<div class="subnav-content">';
+              echo '<a href="/public/admin/user-management/add-a-user.php">Invoices</a>';
+              echo '<a href="/public/admin/user-management/all-users.php">Payment Methods</a>';
+              echo '<a href="/public/admin/user-management/all-users.php">Account Balance</a>';
+              echo '</div>';
+            echo '</div>';
+            // End of Billing Subnav
+            // Email Marketing Subnav
+              echo '<div class="subnav">';
+              echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Support <i class="fa fa-caret-down"></i></button>';
+              echo '<div class="subnav-content">';
+                echo '<a href="/public/admin/user-management/add-a-user.php">FAQ</a>';
+                echo '<a href="/public/admin/user-management/all-users.php">Knowledge Base</a>';
+                echo '<a href="/public/admin/user-management/all-users.php">Contact Support</a>';
+                echo '</div>';
+              echo '</div>';
+            // End of Email Marketing Subnav
           }
         ?>
 
@@ -175,7 +211,14 @@ img{
           <button class="subnavbtn"><?php echo $report1['fname']; ?> <?php echo $report1['lname']; ?> <i class="fa-solid fa-circle-user"></i></button>
           <div class="subnav-content" id="userpanel">
             <a href="account.php">Account Details</a>
-            <a href="orders.php">Past Orders</a>
+            <?php
+              if ($access_id === "customer") {
+                echo '<a href="/faq.php">Company Details</a>';
+                echo '<a href="/faq.php">Orders</a>';
+                echo '<a href="/faq.php">Approvals</a>';
+              }
+            ?>
+            <a href="orders.php">Settings</a>
             <a href="logout.php">Log Out</a>
           </div>
         </div>
