@@ -20,7 +20,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     </head>
   <style>
     body {
-      background-image: url('/resources/img/background.jpg');
+      background-color: #0197c7;
     }
     .main{
       border: 0.1em solid #ffffff;

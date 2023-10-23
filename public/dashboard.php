@@ -47,7 +47,7 @@ require_once ($_SERVER['DOCUMENT_ROOT'] ."/src/config.php");
       background: rgba(255, 255, 255, 0.9);
     }
     body {
-        background-image: url('/resources/img/background.jpg');
+        background-color: #0197c7;
     }
     h1{
         text-align: left;
