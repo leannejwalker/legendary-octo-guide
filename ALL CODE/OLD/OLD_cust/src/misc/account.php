@@ -111,7 +111,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   </style>
   <body>
     <div class ="main" id="together">
-        <div class="main" id="purple">
+        <div class="main" id="orange">
             <div> 
                 <h1>Your Share and Repair Account</h1>
                 <p>Welcome to your Share and Repair account. If you are new, and would like a guide through the website, please click <a href="shareandrepairguide.pdf" target="_blank" rel="noopener noreferrer"><b>here</b></a></p>
@@ -156,7 +156,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 ?>
             </div>
         </div>
-        <div class="main" id="purple">
+        <div class="main" id="orange">
             <h3>Password Reset</h3>
                 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                     <div class="form-group">
@@ -181,7 +181,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <stripe-pricing-table pricing-table-id="prctbl_1LG9htIkrQfMAKQFRV7MdC4x" publishable-key="pk_test_51LEstuIkrQfMAKQFGYvUdcdmLM9nK18IcddJDzCra9aSIiw6STv8oKHNpo9udEEq4PIVSv7rwmcdqa2dbJ4h0CeN00uBb4oIo1"></stripe-pricing-table>
             </div>
         </div>
-        <div class="main" id="purple">
+        <div class="main" id="orange">
         <div> 
             <h3>Privacy and Security</h3>
         </div>

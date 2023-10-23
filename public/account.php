@@ -117,7 +117,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/src/header.php"?>
     <div class ="main" id="together">
-        <div class="main" id="purple">
+        <div class="main" id="orange">
             <div> 
                 <h1>Your Share and Repair Account</h1>
                 <p>Welcome to your Share and Repair account. If you are new, and would like a guide through the website, please click <a href="shareandrepairguide.pdf" target="_blank" rel="noopener noreferrer"><b>here</b></a></p>
@@ -173,7 +173,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
             </div>
         </div>
-        <div class="main" id="purple">
+        <div class="main" id="orange">
             <div> 
                 <h3>Membership</h3>
             </div>
