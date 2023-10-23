@@ -88,7 +88,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       border-radius: 1em;
       background: rgba(255, 255, 255, 0.9);
     }
-    .main#purple{
+    .main#orange{
       border: 0.5em solid #3A3684;
       margin: 1em;
       padding-left: 1em;

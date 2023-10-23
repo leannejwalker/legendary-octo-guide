@@ -92,7 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       border-radius: 1em;
       border-radius: 1em;
     }
-    .main{
+    .main#orange{
       border: 0.5em solid #0081f3;
       margin: 1em;
       padding-left: 1em;
