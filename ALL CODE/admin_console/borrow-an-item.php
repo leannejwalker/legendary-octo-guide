@@ -19,7 +19,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </head>
   <style>
     body {
-    background-color: #0197c7;
+    background-color: #262626;
   }
   .main{
     border: 0.1em solid #ffffff;

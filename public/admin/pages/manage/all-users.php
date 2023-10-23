@@ -137,7 +137,7 @@ $(document).ready(function () {
 </script>
 <style>
   body {
-    background-color: #0197c7;
+    background-color: #262626;
     overflow: auto;
   }
   .main{

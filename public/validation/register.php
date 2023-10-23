@@ -116,7 +116,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <style>
         body{
             font: 14px sans-serif;
-            background-color: #0197c7;
+            background-color: #262626;
             /*overflow: hidden;*/
         }
         .wrapper{
