@@ -31,7 +31,7 @@ require_once ($_SERVER['DOCUMENT_ROOT'] ."/src/config.php");
       border-radius: 1em;
     }
     .main#orange{
-      border: 0.5em solid #0081f3;
+      border: 0.5em solid black;
       margin: 1em;
       padding-left: 1em;
       padding-bottom: 1em;
@@ -45,7 +45,7 @@ require_once ($_SERVER['DOCUMENT_ROOT'] ."/src/config.php");
     h1{
         text-align: left;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: #0081f3;
+        color: black;
     }
     label{
         font-weight: bold;

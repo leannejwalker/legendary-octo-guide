@@ -75,7 +75,7 @@ img{
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: #0081f3;
+  background-color: black;
 }
 
 .subnav-content {
@@ -97,7 +97,7 @@ img{
 }
 
 .subnav-content a:hover {
-  background-color: #0081f3;
+  background-color: black;
   color: white;
 }
 
@@ -108,7 +108,7 @@ img{
 h1{
   text-align: left;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  color: #0081f3;
+  color: black;
 }
 </style>
 </head>

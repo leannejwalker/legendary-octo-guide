@@ -90,7 +90,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       border-radius: 1em;
     }
     .main#orange{
-      border: 0.5em solid #0081f3;
+      border: 0.5em solid black;
       margin: 1em;
       padding-left: 1em;
       padding-bottom: 1em;
@@ -111,7 +111,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     h1{
         text-align: left;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-        color: #0081f3;
+        color: black;
     }
     label{
         font-weight: bold;
@@ -119,7 +119,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
   </style>
   <body>
-    <?php include "./customer//src/header.php"?>
+    <?php include "./customer/src/header.php"?>
     <div class ="main" id="together">
         <div class="main" id="orange">
             <div> 

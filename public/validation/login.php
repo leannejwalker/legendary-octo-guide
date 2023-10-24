@@ -106,7 +106,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             overflow: hidden;
         }
         .wrapper{
-            border: 0.5em solid #0081f3;
+            border: 0.5em solid black;
             margin: 5em;
             padding: 2em;
             border-radius: 1em;
@@ -115,8 +115,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
         .btn-primary {
             color: #fff;
-            background-color: #0081f3;
-            border-color: #0081f3;
+            background-color: black;
+            border-color: black;
         }
         .btn-primary:hover{
             color: #fff;
