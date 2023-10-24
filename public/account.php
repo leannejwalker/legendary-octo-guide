@@ -98,7 +98,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
       padding-left: 1em;
       padding-bottom: 1em;
       border-radius: 1em;
-      background: rgba(0, 0, 0, 0.9);
+      background: rgba(0, 0, 0, 0.1);
     }
 
     body {
