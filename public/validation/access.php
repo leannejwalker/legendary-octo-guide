@@ -20,9 +20,9 @@ $show_password_fields = false; // Flag to determine whether to show password fie
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate username
-    if (empty(trim($_POST["username"])) {
+    if (empty(trim($_POST["username"]))) {
         $username_err = "Please enter a username.";
-    } elseif (!preg_match('/^[a-zA-Z0-9_]+$/', trim($_POST["username"])) {
+    } elseif (!preg_match('/^[a-zA-Z0-9_]+$/', trim($_POST["username"]))) {
         $username_err = "Username can only contain letters, numbers, and underscores.";
     } else {
         // Prepare a select statement
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     
     // Check if the email is entered
-    if (empty(trim($_POST["email"])) {
+    if (empty(trim($_POST["email"]))) {
         $email_err = "Please enter an email.";
     } else {
         $email = trim($_POST["email"]);
