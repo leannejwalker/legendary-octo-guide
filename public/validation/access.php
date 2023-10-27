@@ -50,7 +50,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Close statement
             mysqli_stmt_close($stmt);
         }
-    }
+    });
     
     // Check if the email is entered
     if(empty(trim($_POST["email"]))){
@@ -77,9 +77,28 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             mysqli_stmt_close($stmt);
         }
     }
-
     // Rest of your form processing logic for password and confirm password
-    // ...
+    if ($show_password_fields) {
+        // Password validation
+        if (empty(trim($_POST["password"]))) {
+            $password_err = "Please enter a password.";
+        } elseif (strlen(trim($_POST["password"])) < 6) {
+            $password_err = "Password must have at least 6 characters.";
+        } else {
+            $password = trim($_POST["password"]);
+        }
+
+        // Confirm password validation
+        if (empty(trim($_POST["confirm_password"]))) {
+            $confirm_password_err = "Please confirm password.";
+        } else {
+            $confirm_password = trim($_POST["confirm_password"]);
+            if (empty($password_err) && ($password != $confirm_password)) {
+                $confirm_password_err = "Password did not match.";
+            }
+        }
+    }
+
 }
 ?>
 
