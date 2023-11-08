@@ -151,7 +151,7 @@ img{
     <?php
           // Add additional links for users with the access ID "Administrator"
           if ($access_id === "admin") {
-            echo '<a href="/public/services.php">Customers</a>';
+            echo '<a href="/public/admin/services.php">Users</a>';
             echo '<a href="/support.php">Companies</a>';
             echo '<a href="/faq.php">Orders</a>';
             echo '<a href="/faq.php">Jobs</a>';
