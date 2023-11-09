@@ -162,24 +162,31 @@ img{
             echo '</div>';
             // End of Account Management Subnav
 
-            echo '<a href="/public/admin/services.php">Users</a>';
-            echo '<a href="/support.php">Companies</a>';
-            echo '<a href="/faq.php">Orders</a>';
-            echo '<a href="/faq.php">Jobs</a>';
-
-            // Email Marketing Subnav
+            // Order Management Subnav
             echo '<div class="subnav">';
             echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Marketing <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
-              echo '<a href="/public/admin/user-management/add-a-user.php">Email</a>';
-              echo '<a href="/public/admin/user-management/all-users.php">Social Media</a>';
+              echo '<a href="/public/underconstruction/index.html">Orders</a>';
+              echo '<a href="/public/underconstruction/index.html">Manage Order Items</a>';
               echo '</div>';
             echo '</div>';
-            // End of Email Marketing Subnav
+            // End of Order Management Subnav
+
+            echo '<a href="/public/underconstruction/index.html">Jobs</a>';
+            echo '<a href="/public/underconstruction/index.html">Billing</a>';
+            echo '<a href="/public/underconstruction/index.html">Reports & Analytics</a>';
             
-            echo '<a href="/support.php">Billing</a>';
-            echo '<a href="/faq.php">Alerts</a>';
-            echo '<a href="/faq.php">Reports & Analytics</a>';
+            // Policies, Procedures & Compliance Subnav
+            echo '<div class="subnav">';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Policies, Procedures & Compliance <i class="fa fa-caret-down"></i></button>';
+            echo '<div class="subnav-content">';
+              echo '<a href="/public/underconstruction/index.html">Cyber Essentials</a>';
+              echo '<a href="/public/underconstruction/index.html">GDPR</a>';
+              echo '</div>';
+            echo '</div>';
+            // End of Policies, Procedures & Compliance Subnav
+            
+            echo '<a href="/public/underconstruction/index.html">Alerts</a>';
           }
 
           // Add additional links for users with the access ID "Customer"
@@ -188,8 +195,8 @@ img{
             echo '<div class="subnav">';
             echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Services <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
-              echo '<a href="/public/admin/user-management/add-a-user.php">All Services</a>';
-              echo '<a href="/public/admin/user-management/all-users.php">Partner Services</a>';
+              echo '<a href="/public/underconstruction/index.html">All Services</a>';
+              echo '<a href="/public/underconstruction/index.html">Partner Services</a>';
               echo '</div>';
             echo '</div>';
             // End of Services Subnav
@@ -197,9 +204,9 @@ img{
             echo '<div class="subnav">';
             echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Billing <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
-              echo '<a href="/public/admin/user-management/add-a-user.php">Invoices</a>';
-              echo '<a href="/public/admin/user-management/all-users.php">Payment Methods</a>';
-              echo '<a href="/public/admin/user-management/all-users.php">Account Balance</a>';
+              echo '<a href="/public/underconstruction/index.html">Invoices</a>';
+              echo '<a href="/public/underconstruction/index.html">Payment Methods</a>';
+              echo '<a href="/public/underconstruction/index.html">Account Balance</a>';
               echo '</div>';
             echo '</div>';
             // End of Billing Subnav
@@ -207,9 +214,9 @@ img{
               echo '<div class="subnav">';
               echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Support <i class="fa fa-caret-down"></i></button>';
               echo '<div class="subnav-content">';
-                echo '<a href="/public/admin/user-management/add-a-user.php">FAQ</a>';
-                echo '<a href="/public/admin/user-management/all-users.php">Knowledge Base</a>';
-                echo '<a href="/public/admin/user-management/all-users.php">Contact Support</a>';
+                echo '<a href="/public/underconstruction/index.html">FAQ</a>';
+                echo '<a href="/public/underconstruction/index.html">Knowledge Base</a>';
+                echo '<a href="/public/underconstruction/index.html">Contact Support</a>';
                 echo '</div>';
               echo '</div>';
             // End of Email Marketing Subnav
@@ -226,13 +233,12 @@ img{
             <a href="account.php">Account Details</a>
             <?php
               if ($access_id === "customer") {
-                echo '<a href="/faq.php">Company Details</a>';
-                echo '<a href="/faq.php">Orders</a>';
-                echo '<a href="/faq.php">Approvals</a>';
+                echo '<a href="/public/underconstruction/index.html">Orders</a>';
+                echo '<a href="/public/underconstruction/index.html">Approvals</a>';
               }
             ?>
-            <a href="orders.php">Settings</a>
-            <a href="logout.php">Log Out</a>
+            <a href="/public/underconstruction/index.html">Settings</a>
+            <a href="/public/underconstruction/index.html">Log Out</a>
           </div>
         </div>
         <?php
