@@ -8,9 +8,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 
-require_once "config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] ."/src/config.php";
 
-$sql = ("SELECT * FROM repairs LEFT JOIN users ON repairs.userid=users.id");
+$sql = ("SELECT * FROM users");
 $result = mysqli_query($link, $sql);
 $singleRow = mysqli_fetch_assoc($result);
 //print_r($singleRow);
@@ -69,25 +69,26 @@ $singleRow = mysqli_fetch_assoc($result);
 
 </style>
 <body>
-    <?php include "./customer//src/header.php"?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/src/header.php"?>
     <div class="main">
-    <input type="text" id="search" onkeyup="myFunction()" placeholder="Search for repairs.." title="Type in a repair">
-      <table id="listrepairs">
+    <input type="text" id="search" onkeyup="myFunction()" placeholder="Search for users.." title="Type here">
+      <table id="userlist">
         <tr>
-          <th>Username</th>
-          <th>Item Name</th>
-          <th>Age</th>
-          <th>Details of Fault</th>
-          <th>Status</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Company</th>
+          <th>Contact Number</th>
+          <th>More info</th>
         </tr>
         <?php
           foreach($result as $report) {
         ?>
         <tr>
+          <td><?php echo $report['fname']; ?></td>
+          <td><?php echo $report['lname']; ?></td>
           <td><?php echo $report['username']; ?></td>
-          <td><?php echo $report['itemname']; ?></td>
-          <td><?php echo $report['age']; ?></td>
-          <td><?php echo $report['dof']; ?></td>
+          <td><?php echo $report['phone']; ?></td>
+          <td></td>
         </tr>
         <?php
           }
@@ -99,7 +100,7 @@ $singleRow = mysqli_fetch_assoc($result);
       var input, filter, table, tr, td, i, txtValue;
       input = document.getElementById("search");
       filter = input.value.toUpperCase();
-      table = document.getElementById("listrepairs");
+      table = document.getElementById("userlist");
       tr = table.getElementsByTagName("tr");
       for (i = 0, 1, 2, 3; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[0, 1, 2, 3];

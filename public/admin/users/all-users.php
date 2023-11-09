@@ -1,181 +1,119 @@
-<?php include "../scripts/initialize.php"?>
+<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+  header("location: login.php");
+    exit;
+}
+
+require_once $_SERVER['DOCUMENT_ROOT'] ."/src/config.php";
+
+$sql = ("SELECT * FROM users");
+$result = mysqli_query($link, $sql);
+$singleRow = mysqli_fetch_assoc($result);
+//print_r($singleRow);
+//print_r($result);
+//print_r($userid);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include "../scripts/linksandscripts.php"?>
-<script>
-  $(document).ready(function () {
-    $('#users').DataTable({
-      processing: true,
-      serverSide: true,
-      ajax: 'scripts/users.php',
-      dom: 'Bfrtip',
-      buttons: [
-        {
-          extend: 'alert',
-          text: 'My button 1'
-        },
-        {
-          extend: 'alert',
-          text: 'My button 2'
-        },
-        {
-          extend: 'alert',
-          text: 'Export to .CSV'
-        }
-        ]
-    });
-  });
-$.fn.dataTable.ext.buttons.alert = {
-  className: 'buttons-alert',
- 
-  action: function ( e, dt, node, config ) {
-    alert( this.text() );
-  }
-};
-
-
-
-/* Formatting function for row details - modify as you need */
-function format(d) {
-    // `d` is the original data object for the row
-    return (
-        '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
-        '<tr>' +
-        '<td>Full name:</td>' +
-        '<td>' +
-        d.name +
-        '</td>' +
-        '</tr>' +
-        '<tr>' +
-        '<td>Extension number:</td>' +
-        '<td>' +
-        d.extn +
-        '</td>' +
-        '</tr>' +
-        '<tr>' +
-        '<td>Extra info:</td>' +
-        '<td>And any further details here (images etc)...</td>' +
-        '</tr>' +
-        '</table>'
-    );
-}
- 
-$(document).ready(function () {
-    var table = $('#example').DataTable({
-        ajax: 'scripts/users.php',
-        columns: [
-            {
-                className: 'dt-control',
-                orderable: false,
-                data: null,
-                defaultContent: '',
-            },
-            { data: 'name' },
-            { data: 'position' },
-            { data: 'office' },
-            { data: 'salary' },
-        ],
-        order: [[1, 'asc']],
-    });
- 
-    // Add event listener for opening and closing details
-    $('#example tbody').on('click', 'td.dt-control', function () {
-        var tr = $(this).closest('tr');
-        var row = table.row(tr);
- 
-        if (row.child.isShown()) {
-            // This row is already open - close it
-            row.child.hide();
-            tr.removeClass('shown');
-        } else {
-            // Open this row
-            row.child(format(row.data())).show();
-            tr.addClass('shown');
-        }
-    });
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
+<script language="JavaScript" type="text/javascript" src="/resources/js/jquery-3.6.0.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>All Repair Sessions - Share and Repair</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <style>
   body {
     background-color: #262626;
-    overflow: auto;
   }
   .main{
-    border: 0.1em solid #ffffff;
-    margin: 5em;
-    padding: 1.5em;
-    border-radius: 1em;
-    background: rgba(255, 255, 255, 0.9);
-  }
-  
-  img{
-    float: left;
-    position: relative;
-    block-size: 3em;
-    margin-left: 18px;
-    margin-right:24px;
-  }
+      border: 0.1em solid #ffffff;
+      margin: 5em;
+      padding-bottom: 3em;
+      padding-left: 5em;
+      border-radius: 1em;
+      background: rgba(255, 255, 255, 0.9);
+    }
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-left: -4.5em;
+    }
 
-  .navbar {
-    overflow: hidden;
-    background-color: rgb(0, 0, 0);
-    padding: -1em;
-  } 
+    th, td {
+      text-align: left;
+      padding: 16px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
 
 </style>
 <body>
-<?php include "./customer//src/header.php"?>
-<div class="main">
-<table id="users" class="display" style="width:100%">
-        <thead>
-            <tr>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>Username</th>
-                <th>Access Type</th>
-            </tr>
-        </thead>
-    </table>
-</div>
-<body>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/src/header.php"?>
+    <div class="main">
+    <input type="text" id="search" onkeyup="myFunction()" placeholder="Search for users.." title="Type here">
+      <table id="userlist">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Company</th>
+          <th>Contact Number</th>
+          <th>More info</th>
+        </tr>
+        <?php
+          foreach($result as $report) {
+        ?>
+        <tr>
+          <td><?php echo $report['fname']; ?></td>
+          <td><?php echo $report['lname']; ?></td>
+          <td><?php echo $report['username']; ?></td>
+          <td><?php echo $report['phone']; ?></td>
+          <td></td>
+        </tr>
+        <?php
+          }
+        ?>
+      </table>
+    </div>
+    <script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("search");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("userlist");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0, 1, 2, 3; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0, 1, 2, 3];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+    </script>
+</body>
 </html>

@@ -151,10 +151,22 @@ img{
     <?php
           // Add additional links for users with the access ID "Administrator"
           if ($access_id === "admin") {
+
+            // Account Management Subnav
+            echo '<div class="subnav">';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Marketing <i class="fa fa-caret-down"></i></button>';
+            echo '<div class="subnav-content">';
+              echo '<a href="/public/admin/users/all-users.php">Users</a>';
+              echo '<a href="/public/admin/companies/all-companies.php">Companies</a>';
+              echo '</div>';
+            echo '</div>';
+            // End of Account Management Subnav
+
             echo '<a href="/public/admin/services.php">Users</a>';
             echo '<a href="/support.php">Companies</a>';
             echo '<a href="/faq.php">Orders</a>';
             echo '<a href="/faq.php">Jobs</a>';
+
             // Email Marketing Subnav
             echo '<div class="subnav">';
             echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Marketing <i class="fa fa-caret-down"></i></button>';
@@ -164,6 +176,7 @@ img{
               echo '</div>';
             echo '</div>';
             // End of Email Marketing Subnav
+            
             echo '<a href="/support.php">Billing</a>';
             echo '<a href="/faq.php">Alerts</a>';
             echo '<a href="/faq.php">Reports & Analytics</a>';
