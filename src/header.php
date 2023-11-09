@@ -75,10 +75,10 @@ img{
 
 .navbar a {
   float: left;
-  font-size: 12px;
+  font-size: 16px;
   color: white;
   text-align: center;
-  padding: 18px 18px;
+  padding: 20px 20px;
   text-decoration: none;
 }
 
@@ -89,11 +89,11 @@ img{
 }
 
 .subnav .subnavbtn {
-  font-size: 12px;  
+  font-size: 16px;  
   border: none;
   outline: none;
   color: white;
-  padding: 18px 18px;
+  padding: 20px 20px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -185,8 +185,6 @@ img{
               echo '</div>';
             echo '</div>';
             // End of Policies, Procedures & Compliance Subnav
-            
-            echo '<a href="/public/underconstruction/index.html">Alerts</a>';
           }
 
           // Add additional links for users with the access ID "Customer"
@@ -235,6 +233,9 @@ img{
               if ($access_id === "customer") {
                 echo '<a href="/public/underconstruction/index.html">Orders</a>';
                 echo '<a href="/public/underconstruction/index.html">Approvals</a>';
+              }
+              if ($access_id === "admin") {
+                echo '<a href="/public/underconstruction/index.html">Alerts</a>';
               }
             ?>
             <a href="/public/underconstruction/index.html">Settings</a>
