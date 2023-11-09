@@ -78,7 +78,7 @@ img{
   font-size: 12px;
   color: white;
   text-align: center;
-  padding: 24px 24px;
+  padding: 18px 18px;
   text-decoration: none;
 }
 
@@ -89,11 +89,11 @@ img{
 }
 
 .subnav .subnavbtn {
-  font-size: 16px;  
+  font-size: 12px;  
   border: none;
   outline: none;
   color: white;
-  padding: 24px 24px;
+  padding: 18px 18px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
