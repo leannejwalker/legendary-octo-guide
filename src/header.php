@@ -75,7 +75,7 @@ img{
 
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   text-align: center;
   padding: 24px 24px;
@@ -154,7 +154,7 @@ img{
 
             // Account Management Subnav
             echo '<div class="subnav">';
-            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Marketing <i class="fa fa-caret-down"></i></button>';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Account Management <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
               echo '<a href="/public/admin/users/all-users.php">Users</a>';
               echo '<a href="/public/admin/companies/all-companies.php">Companies</a>';
@@ -164,7 +164,7 @@ img{
 
             // Order Management Subnav
             echo '<div class="subnav">';
-            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Marketing <i class="fa fa-caret-down"></i></button>';
+            echo '<button class="subnavbtn"><i class="fa-solid fa-handshake"></i> Order Management <i class="fa fa-caret-down"></i></button>';
             echo '<div class="subnav-content">';
               echo '<a href="/public/underconstruction/index.html">Orders</a>';
               echo '<a href="/public/underconstruction/index.html">Manage Order Items</a>';
