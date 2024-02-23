@@ -3,7 +3,7 @@
 require_once $_SERVER['DOCUMENT_ROOT'] ."/src/config.php";
 
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: dashboard.php");
+    header("location: /public/dashboard.php");
     exit;
 }
  
@@ -92,7 +92,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
                 // Redirect to login page
-                header("location: login.php");
+                header("location: /public/validation/login.php");
             } else{
                 echo "Oops! Something went wrong. Please try again later.";
             }
