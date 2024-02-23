@@ -144,7 +144,7 @@ img{
 </head>
 <body>
 <div class="navbar">
-<img href="https://shareandrepair.org.uk" src="/resources/img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
+<img href="https://aquaesuliswebsolutions.co.uk/" src="/resources/img/AQUAE_SULIS_DARKER_BLUE.png" alt="Aquae Sulis Web Solutions Home">
     <div class="subnav">
         <a href="/dashboard.php">Dashboard</a>
 		</div>
@@ -239,7 +239,7 @@ img{
               }
             ?>
             <a href="/public/underconstruction/index.html">Settings</a>
-            <a href="/public/underconstruction/index.html">Log Out</a>
+            <a href="/public/validation/logout.php">Log Out</a>
           </div>
         </div>
         <?php
